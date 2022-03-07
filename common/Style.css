@@ -1,0 +1,1906 @@
+html{
+	-webkit-text-size-adjust:none;
+}
+body{
+	/* padding-top: 40upx; */
+	/* font-size:0; */
+	overflow-x: hidden;
+	box-sizing: border-box;
+}
+.SwiperBox{
+	position: relative;
+}
+.SwiperBox swiper{
+	height: 480upx!important;
+}
+.SwiperBox swiper-item{
+	height: 100%!important;
+}
+.SwiperBox .uni-swiper-wrapper{
+	overflow: visible;
+}
+.aaa .uni-swiper-wrapper{
+	overflow: visible!important;
+}
+.SqiperImgBox{
+	width: 100%;
+	display: inline-block;
+	height: 100%;
+	border: 1px solid #000000;
+	background: #000000;
+}
+.SwiperBox img{
+	width: 100%;
+	height:100%;
+}
+/**********************************首页样式*******************************/
+.Listbox{
+	padding: 16upx 0 10upx;
+	width: 100%;
+	line-height: 0;
+	overflow: hidden;
+}
+.Listbox view{
+	height: 80upx;
+	line-height: 70upx;
+	text-align: center;
+	font-size: 38upx;
+}
+.Listbox view view.TitleText{
+	display: inline-block;
+	padding: 0 10upx;
+}
+.Listbox view .TitleUrl{
+	height: 27upx;
+	width:50upx;
+}
+.Listbox view.TitleImgBox image{
+	width: 35%;
+}
+.Listbox .List{
+	width: 100%;
+	display: flex;
+	padding: 0;
+	height: auto;
+	line-height: 0;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+}
+.Listbox .List .LableBox{
+	flex: 1;
+	min-width: 49%;
+	max-width: 49%;
+	line-height: 0;
+	overflow: hidden;
+}
+.Listbox .List label.LableBox:nth-child(odd){
+	padding-right:15upx!important;
+}
+.Listbox .ListTwo label.LableBox:nth-child(even){
+	padding-right:15upx!important;
+}
+.Listbox .ListTwo label.LableBox:nth-child(odd){
+	padding-right:0upx!important;
+}
+.Listbox .List .LableBox .BookUrl{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	max-height:400upx;
+}
+.Listbox .List .LableBox .BookUrl image{
+	width: 100%;
+}
+.Listbox .List .MaxLableBox{
+	flex: 1;
+	min-width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+}
+.Listbox .List .MaxLableBox .BookUrl{
+	width: 100%;
+	display: inline-block;
+	height: auto;
+	overflow: hidden;
+	max-height: 500upx;
+}
+.Listbox .List .MaxLableBox .BookUrl image{
+	width: 100%;
+	border-radius: 10upx;
+}
+.Listbox .List .MMaxLableBox{
+	flex: 1;
+	display: flex;
+	min-width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+}
+.Listbox .List .MMaxLableBox .BookInfo{
+	flex: 1;
+	min-width: 33.3%;
+	max-width: 33.3%;
+	line-height: 0;
+	height: auto;
+	display: inline-block;
+	padding-right: 8upx;
+}
+.Listbox .List .MMaxLableBox .BookInfo:last-child{
+	padding: 0!important;
+}
+.Listbox .List .MMaxLableBox .BookInfo image{
+	width: 100%;
+}
+.Listbox .List .LineLable{
+	flex: 1;
+	min-width: 100%;
+	max-width: 100%;
+	line-height: 0;
+	text-align: left;
+	box-sizing: border-box;
+	position:relative;
+	padding: 10upx 0;
+}
+.Listbox .List .LineLable .BookUrl{
+	width: 35%;
+	display: inline-block;
+	overflow: hidden;
+	height: auto;
+	max-height: 200upx;
+}
+.Listbox .List .LineLable .BookUrl image{
+	width: 100%;
+}
+.Listbox .List .LableBox .BookName{
+	font-size: 31upx;
+	height: 55upx;
+	font-weight: 600;
+	line-height:50upx;
+	display: inline-block;
+	width: 100%;
+	overflow: hidden;
+	text-align: left;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.Listbox .List .LableBox .Booktip{
+	font-size: 26upx;
+	height: 35upx;
+	line-height: 30upx;
+	text-align: left;
+	display: inline-block;
+	width: 100%;
+	color: #999999;
+	overflow: hidden;
+	padding-bottom: 12upx;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.Listbox .List .MaxLableBox .DivLable{
+	width: 100%;
+	height: 75upx;
+	font-weight: 600;
+	box-sizing: border-box;
+	position: relative;
+	line-height: 60upx;
+	text-align:left;
+	font-size: 31upx;
+	padding:0 10upx;
+}
+.Listbox .List .MaxLableBox .DivLable.OneLable{
+	height: 50upx!important;
+	line-height:65upx!important;
+}
+.Listbox .List .MaxLableBox .Booktip{
+	width: 100%;
+	display: inline-block;
+	font-size: 26upx;
+	color: #999999;
+	overflow: hidden;
+	text-align: left;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height: 34upx;
+	line-height: 34upx;
+	padding: 0 10upx;
+}
+.Listbox .List .MaxLableBox .DivLable .RightInfo{
+	position: absolute;
+	display: inline-block;
+	right: 10upx;
+	top: 0;
+	font-size: 28upx;
+	height: 100%;
+	color: #999999;
+	line-height: 60upx;
+}
+.Listbox .List .MaxLableBox .DivLable .RightInfo image{
+	width: 30upx;
+	vertical-align: middle;
+	margin-bottom:8upx;
+	margin-right: 5upx;
+}
+.Listbox .List .LineLable .LinerightInfo{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 36%;
+	line-height: 0;
+	padding-left: 12upx;
+	width: 62%;
+	height:100%;
+}
+.Listbox .List .LineLable .LinerightInfo .BookName{
+	display: inline-block;
+	width: 100%;
+	height: 60upx;
+	color: #000000;
+	text-align: left;
+	font-weight: 600;
+	line-height: 60upx;
+}
+	
+.Listbox .List .LineLable .LinerightInfo .likeNumber{
+	display: inline-block;
+	width: 100%;
+	height: 45upx;
+	line-height: 45upx;
+	text-align: left;
+	color: rgb(208, 208, 216);
+	line-height: 45upx;
+	font-size: 29upx;
+}
+.Listbox .List .LineLable .LinerightInfo .Booktip{
+	position: absolute;
+	left: 12upx;
+	display: inline-block;
+	bottom:14upx;
+	width: 100%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #999999;
+	font-size: 26upx;
+	height: 34upx;
+	line-height: 34upx;
+	overflow: hidden;
+}
+.Listbox .List .MMaxLableBox .BookInfo image{
+	width: 100%;
+}
+.Listbox .List .MMaxLableBox .BookInfo .BookName{
+	font-size: 30upx;
+	height: 40upx;
+	font-weight: 600;
+	line-height:50upx;
+	display: inline-block;
+	width: 100%;
+	overflow: hidden;
+	text-align: left;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.Listbox .List .MMaxLableBox .BookInfo .Booktip{
+	font-size: 26upx;
+	height: 35upx;
+	line-height: 30upx;
+	display: inline-block;
+	width: 100%;
+	color: #999999;
+	overflow: hidden;
+	padding-bottom: 12upx;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.BookTypeList{
+	width: 100%;
+	display: flex;
+}
+.BookTypeList .TypeBox{
+	flex: 1;
+	display: inline-block;
+	min-width:33.3%;
+	max-width:33.3%;
+	font-size: 0;
+	line-height: 0;
+	text-align: center;
+}
+.BookTypeList .TypeBox image{
+	width: 80%;
+}
+.BannerBox{
+	width: 100%;
+	position: absolute;
+	bottom: -6upx;
+	left: 0;
+	height: 45upx;
+	font-size: 0;
+	overflow: hidden;
+	z-index: 1000;
+}
+.BannerBox image{
+	width: 100%;
+	height:80upx;
+}
+.ChannelBox{
+	position: absolute;
+	left: 15upx;
+	top: 40upx;
+}
+.ChannelBox image{
+	width: 65upx;
+}
+.ChannelPanel{
+	position: fixed;
+	left: 0;right: 0;
+	top: 0;bottom: 0;
+	z-index: 9999999999999999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0,0,0,0.3);
+}
+.ChannelPanel image{
+	width: 35%;
+	flex: 1;
+	min-width: 35%;
+	max-width: 35%;
+}
+.SearchBtn{
+	position: absolute;
+	right: 15upx;
+	top: 40upx;
+}
+.SearchBtn image{
+	width: 65upx;
+}
+/******************************搜索页面***********************************/
+.SearchBox{
+	width: 100%;
+	height: 110upx;
+	box-sizing: border-box;
+	background: #FFFFFF;
+	padding: 15upx 25upx 20upx;
+}
+.SearchBox.Back0{
+	background: #F2f2f2!important;
+}
+.SearchBox .SearchBorder{
+	border: 2px solid rgb(199,199,199);
+	height: 100%;
+	font-size: 0upx;
+	border-radius: 40upx;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left:10upx;
+	line-height: 75upx;
+}
+.SearchBox .SearchBorder .Icon_Search{
+	display: inline-block;
+	flex: 1;
+	min-width: 15%;
+	max-width: 15%;
+	height: 50upx;
+	line-height: 50upx;
+	border-right: 1px solid rgb(199,199,199);
+	text-align: center;
+	vertical-align: middle;
+}
+.SearchBox .SearchBorder .Icon_Search image{
+	width: 37%;
+	vertical-align: middle;
+}
+.SearchBox .SearchBorder .Search_Input{
+	display: inline-block;
+	height: 100%;
+	vertical-align: top;
+	line-height: 75upx;
+	flex: 1;
+	min-width: 65%;
+	max-width: 65%;
+}
+.SearchBox .SearchBorder .Search_Input.MaxLable{
+	min-width: 80%;
+	padding-left: 10upx;
+	max-width: 80%;
+}
+.SearchBox .SearchBorder .Search_Input input{
+	height: 70%;
+	line-height:52upx;
+	width: 100%;
+	display: inline-block;
+	padding-left: 15upx;
+	vertical-align: middle;
+	font-size: 30upx;
+}
+.SearchBox .SearchBorder .Search_Btn{
+	display: inline-block;
+	flex: 1;
+	min-width:20%;
+	max-width: 20%;
+	height: 100%;
+	line-height: 75upx;
+	vertical-align: top;
+}
+.SearchBox .SearchBorder .Search_Btn button{
+	height: 80%;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	width: 90%;
+	border-radius: 20upx;
+	border: none;
+	background: rgb(255,233,0);
+	line-height: 60upx;
+	font-size: 28upx;
+	vertical-align: middle;
+}
+.Search_BookList{
+	width: 100%;
+	background: #FFFFFF;
+	padding:0 25upx;
+	border-bottom: 1px solid #EEEEEE;
+	box-sizing: border-box;
+}
+.Search_BookList .NullListTip{
+	height: 200upx;
+	line-height: 200upx;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	font-size: 30upx;
+	color: #666666;
+}
+.Search_BookList .BookInfo{
+	width: 100%;
+	padding: 16upx 0;
+	display: inline-block;
+	border-bottom: 1px solid #EEEEEE;
+	flex-grow: inherit;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+.Search_BookList .BookInfo:last-child{
+	border-bottom: none;
+}
+.Search_BookList .BookInfo image{
+	width:23%;
+	max-width:23%;
+}
+.Search_BookList .BookInfo .SearchListInfo{
+	display: inline-block;
+	position: absolute;
+	left: 23%;top: 0;
+	right: 0;bottom:0;
+	width: 76%;
+	vertical-align: top;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 16upx 0;
+	font-size: 0;
+	padding-left: 28upx;
+}
+.Search_BookList .BookInfo .SearchListInfo .Search_BookName{
+	width: 100%;
+	overflow: hidden;
+	height: 60upx;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 34upx;
+	display: inline-block;
+	line-height: 60upx;
+}
+.Search_BookList .BookInfo .SearchListInfo .Search_BookType{
+	width: 100%;
+	overflow: hidden;
+	height: 40upx;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 30upx;
+	color: #999999;
+	display: inline-block;
+	line-height: 40upx;
+}
+.Search_BookList .BookInfo .SearchListInfo .Search_BookUpdate{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 25upx;
+	overflow: hidden;
+	height: 50upx;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 28upx;
+	color: #999999;
+	padding-left: 28upx;
+	display: inline-block;
+	line-height: 50upx;
+}
+.SearchHis{
+	width: 100%;
+	padding:0 25upx;
+	box-sizing: border-box;
+	background: #FFFFFF;
+}
+.SearchHis .BoxTitle{
+	width: 100%;
+	height: 60upx;
+	display: inline-block;
+	line-height: 60upx;
+	position: relative;
+	font-size: 34upx;
+}
+.SearchHis .BoxTitle image{
+	position: absolute;
+	right: 0upx;
+	top: 12upx;
+	width: 40upx;
+}
+.SearchHis .SearchHisList{
+	width: 100%;
+	line-height: 75upx;
+	padding: 10upx 0;
+}
+.SearchHis .SearchHisList .SearchName{
+	background: rgb(239,239,244);
+	font-size: 30upx;
+	height: 45upx;
+	line-height: 45upx;
+	display: inline-block;
+	color: rgb(126,122,119);
+	margin-right: 20upx;
+	padding: 10upx 30upx;
+	border-radius: 25upx;
+}
+.LineBox{
+	width: 100%;
+	display: inline-block;
+	background: #F2F2F2;
+	height: 8upx;
+}
+.PopularBook{
+	width: 100%;
+	padding:0 25upx;
+	box-sizing: border-box;
+	background: #FFFFFF;
+}
+.PopularBook .BoxTitle{
+	width: 100%;
+	height: 60upx;
+	display: inline-block;
+	line-height: 60upx;
+	position: relative;
+	font-size: 34upx;
+}
+.PopularBook .BoxTitle image{
+	position: absolute;
+	right: 0upx;
+	top: 12upx;
+	width: 40upx;
+}
+.PopularBook .PopularBookList{
+	width: 100%;
+	padding: 16upx 0;
+	display: flex;
+}
+.PopularBook .PopularBookList .BookInfo{
+	display: inline-block;
+	flex: 1;
+	min-width: 33%;
+	max-width: 33%;
+	padding-right: 10upx;
+}
+.PopularBook .PopularBookList .BookInfo:last-child{
+	padding: 0;
+}
+.PopularBook .PopularBookList .BookInfo .BookUrl{
+	width: 100%;
+	overflow: hidden;
+	height: auto;
+	max-height: 340upx;
+	border-radius: 20upx;
+}
+.PopularBook .PopularBookList .BookInfo .BookUrl image{
+	width: 100%;
+}
+.PopularBook .PopularBookList .BookInfo .BookName{
+	font-size: 28upx;
+}
+.PopularBookBox{
+	width: 100%;
+	padding: 14upx 28upx;
+	line-height: 75upx;
+}
+.PopularBookBox .PopularBookInfo{
+	background: rgb(239,239,244);
+	font-size: 30upx;
+	height: 45upx;
+	line-height: 45upx;
+	display: inline-block;
+	color: rgb(126,122,119);
+	margin-right: 20upx;
+	padding: 10upx 30upx;
+	border-radius: 25upx;
+}
+.ThisUserRankInfo{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10upx 30upx 20upx;
+	background: rgb(252,220,25);
+}
+.ThisUserRankInfo .UserRank{
+	width: 100%;
+	height: 120upx;
+	background: #FFFFFF;
+	line-height: 120upx;
+	font-size: 0;
+	position: relative;
+	box-sizing: border-box;
+	display: inline-block;
+	border-radius: 20upx;
+	padding: 0 20upx;
+}
+.ThisUserRankInfo .UserRank image{
+	width: 100upx;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.ThisUserRankInfo .UserRank .UserName{
+	display: inline-block;
+	font-size: 30upx;
+	color: #333333;
+	padding-left:16upx;
+	vertical-align: middle;
+}
+.ThisUserRankInfo .UserRank .OtherRight{
+	position: absolute;
+	top: 0;
+	height: 100%;
+	line-height: 120upx;
+	font-size: 0;
+	right: 0upx;
+}
+.ThisUserRankInfo .UserRank .OtherRight .LableTip{
+	color: rgb(189,189,189);
+	font-size:28upx;
+	vertical-align: middle;
+	padding-right: 10upx;
+}
+.ThisUserRankInfo .UserRank .OtherRight .LableMoney{
+	color: rgb(250,155,97);
+	font-size: 38upx;
+	vertical-align: middle;
+	padding-right: 10upx;
+}
+.ThisUserRankInfo .UserRank .OtherRight .MoneyIcon{
+	width: 54upx;
+	vertical-align: middle;
+}
+.ThisUserRankInfo .UserRank .OtherRight .Iconright{
+	width: 50upx;
+	vertical-align: middle;
+}
+.MoneyRankBox{
+	width: 100%;
+	box-sizing: border-box;
+	position: relative;
+}
+.MoneyRankBox .RankBgImg{
+	width: 100%;
+}
+.MoneyRankBox .RankInfoList{
+	min-height:854upx;
+	position: absolute;
+	width: 100%;
+	top: 390upx;
+	text-align: center;
+	display: flex;
+	padding:0 30upx 150upx;
+	box-sizing: border-box;
+	justify-content: center;
+	background:rgb(252,220,25);
+}
+.MoneyRankBox .RankInfoList .RankList{
+	margin-top: -40upx;
+	background: #FFFFFF;
+	width: 100%;
+	border-top-left-radius: 90upx;
+	border-top-right-radius: 90upx;
+	border-bottom-left-radius: 20upx;
+	border-bottom-right-radius: 20upx;
+	/* height: 2000upx; */
+}
+.MoneyRankBox .RankInfoList .RankList .RankUserInfo{
+	width: 100%;
+	display: flex;
+	height: 130upx;
+	line-height: 130upx;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	border-bottom: 1px solid #EEEEEE;
+}
+.MoneyRankBox .RankInfoList .RankList .RankUserInfo .RankNumber{
+	flex: 1;
+	display: inline-block;
+	min-width: 15%;
+	max-width: 15%;
+	text-align: center;
+	font-size: 36upx;
+	vertical-align: top;
+	color: rgb(194,191,193);
+}
+.MoneyRankBox .RankInfoList .RankList .RankUserInfo .RankUserUrl{
+	min-width: 13%;
+	max-width: 13%;
+	flex: 1;
+	height:90upx;
+	display: inline-block;
+	vertical-align: middle;
+}
+.MoneyRankBox .RankInfoList .RankList .RankUserInfo .RankUserUrl image{
+	width: 100%;
+	border-radius: 50%;
+}
+.MoneyRankBox .RankInfoList .RankList .RankUserInfo .RankUserName{
+	flex: 1;
+	display: inline-block;
+	min-width: 50%;
+	max-width: 50%;
+	font-size: 28upx;
+	text-align: left;
+	padding-left: 15upx;
+	vertical-align: top;
+	height: 100%;
+}
+.MoneyRankBox .RankInfoList .RankList .RankUserInfo .RankMoney{
+	display: inline-block;
+	height: 100%;
+	min-width: 22%;
+	font-size: 26upx;
+	padding-top: 20upx;
+	box-sizing: border-box;
+	line-height:0upx;
+	max-width: 22%;
+}
+.MoneyRankBox .RankInfoList .RankList .RankUserInfo .RankMoney .MoneyIcon{
+	width: 30%;
+	vertical-align: middle;
+}
+.MoneyRankBox .RankInfoList .RankList .RankUserInfo .RankMoney .MoneyNum{
+	line-height:45upx;
+	display:inline-block;
+	width: 100%;
+	font-size: 32upx;
+	color: rgb(250,158,97);
+	text-align: center;
+}
+.MoneyRankBox .RankInfoList .RankList .RankTopList{
+	display: flex;
+	height: 290upx;
+	padding:40upx 0 10upx;
+}
+.MoneyRankBox .RankInfoList .RankList .RankTopList .TopRankInfoTwo{
+	flex: 1;
+	display: inline-block;
+	min-width: 31%;
+	text-align: center;
+	max-width: 31%;
+}
+.MoneyRankBox .RankInfoList .RankList .RankTopList .TopRankInfoThree{
+	flex: 1;
+	display: inline-block;
+	min-width: 31%;
+	text-align: center;
+	max-width: 31%;
+}
+.MoneyRankBox .RankInfoList .RankList .RankTopList .TopRankInfoOne{
+	flex: 1;
+	display: inline-block;
+	min-width: 38%;
+	text-align: center;
+	max-width: 38%;
+}
+.MoneyRankBox .RankInfoList .RankList .RankTopList .RankUrlMaxBox{
+	width: 100%;
+	height: 200upx;
+	position: relative;
+}
+.MoneyRankBox .RankInfoList .RankList .RankTopList .RankUrlMaxBox .UserUrlBox{
+	width: 100%;
+	position: absolute;
+	bottom: 10upx;
+	height: auto;
+}
+.MoneyRankBox .RankInfoList .RankList .RankTopList .TopRankInfoTwo .TopRankUserUrl{
+	width: 50%;
+	display: inline-block;
+	height: 106upx;
+	border: 3px solid rgb(198,170,136);
+	border-radius: 50%;
+	overflow: hidden;
+	box-sizing: border-box;
+	margin-top: -15upx;
+	vertical-align: bottom;
+}
+.MoneyRankBox .RankInfoList .RankList .RankTopList .TopRankInfoTwo .TopRankUserUrl image{
+	width: 100%;
+}
+.MoneyRankBox .RankInfoList .RankList .RankTopList .TopRankInfoOne .TopRankUserUrl{
+	width: 50%;
+	display: inline-block;
+	border-radius: 50%;
+	margin-top: -15upx;
+	overflow: hidden;
+	height: 131upx;
+	border: 3px solid rgb(253,209,112);
+	box-sizing: border-box;
+	vertical-align: bottom;
+}
+.MoneyRankBox .RankInfoList .RankList .RankTopList .TopRankInfoOne .TopRankUserUrl image{
+	width: 100%;
+}
+.MoneyRankBox .RankInfoList .RankList .RankTopList .TopRankInfoThree .TopRankUserUrl{
+	width: 50%;
+	display: inline-block;
+	height: 106upx;
+	border: 3px solid rgb(198,170,136);
+	border-radius: 50%;
+	overflow: hidden;
+	box-sizing: border-box;
+	margin-top: -15upx;
+	vertical-align: bottom;
+}
+.MoneyRankBox .RankInfoList .RankList .RankTopList .TopRankInfoThree .TopRankUserUrl image{
+	width: 100%;
+}
+.MoneyRankBox .RankInfoList .RankList .RankTopList .RankUrlBox{
+	display: inline-block;
+	width: 100%;
+}
+.MoneyRankBox .RankInfoList .RankList .RankTopList .RankUrlBox .RankUrl{
+	width: 30%;
+}
+.MoneyRankBox .RankInfoList .RankList .RankTopList .TopRankName{
+	width: 100%;
+	text-align: center;
+	height:45upx;
+	line-height:45upx;
+	font-size: 30upx;
+}
+.MoneyRankBox .RankInfoList .RankList .RankTopList .UserRankInfo{
+	width: 100%;
+	text-align: center;
+	height:34upx;
+	color: rgb(250,158,97);
+	line-height:34upx;
+	font-size:28upx;
+}
+.MoneyRankBox .RankInfoList .RankList .RankTopList .UserRankInfo image{
+	width: 36upx;
+	margin-top: -4upx;
+	margin-left:0upx;
+	vertical-align: middle;
+}
+/*******************************用户打赏页面************************************/
+.UserInfo{
+	width: 100%;
+	position: relative;
+}
+.UserInfo .RewardUserBg{
+	width: 100%;
+}
+.UserInfo .RewardUserUrl{
+	position: absolute;
+	top: 70upx;left: 30upx;
+	width: 125upx;
+	border-radius: 100%;
+}
+.UserInfo .RewardUserName{
+	position: absolute;
+	bottom: 110upx;left: 0;
+	display: inline-block;
+	width: 100%;
+	font-size: 38upx;
+	color: #FFFFFF;
+	padding-left: 30upx;
+}
+.UserInfo .RewardNumber{
+	position: absolute;
+	bottom: 56upx;left: 0;
+	display: inline-block;
+	width: 100%;
+	font-size: 30upx;
+	color: #FFFFFF;
+	padding-left: 30upx;
+}
+.UserInfo .RewardNumber label:last-child{
+	padding-left: 20upx;
+}
+.UserInfo .ArrowBox{
+	position: absolute;
+	bottom: 0;left:45upx;
+	border-width:34upx 24upx;
+	border-color: transparent transparent #FFFFFF transparent;
+	border-style: solid;
+}
+.ListTitleTip{
+	width: 100%;
+	padding: 0 30upx;
+	height: 60upx;
+	line-height: 60upx;
+	font-size: 32upx;
+	box-sizing: border-box;
+}
+.RewardBookList{
+	width: 100%;
+	padding: 0 30upx;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+}
+.RewardBookList .BookInfo{
+	flex: 1;
+	display: inline-block;
+	min-width: 33%;
+	max-width: 33%;
+	padding-right:2upx;
+	padding-bottom:10upx;
+}
+.RewardBookList .BookInfo image{
+	width: 97%;
+}
+.RewardBookList .BookInfo .RewardBookName{
+	font-size: 28upx;
+	height: 50upx;
+	line-height: 50upx;
+}
+.NullRewardList{
+	width: 100%;
+	padding-top: 30upx;
+	text-align: center;
+}
+.NullRewardList image{
+	width: 60%;
+}
+.NullRewardList label{
+	font-size: 34upx;
+	width: 100%;
+	padding-top: 10upx;
+	color: #999999;
+	text-align: center;
+	display: inline-block;
+}
+.IsLikeList{
+	width: 100%;
+	padding: 0 30upx;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 30upx;
+	box-sizing: border-box;
+}
+.IsLikeList .BookInfo{
+	flex: 1;
+	display: inline-block;
+	min-width: 33%;
+	max-width: 33%;
+	padding-right:2upx;
+	padding-bottom:10upx;
+}
+.IsLikeList .BookInfo .RewardBookUrl{
+	width: 94%;
+	height:280upx;
+	overflow: hidden;
+	border-radius: 30upx;
+}
+.IsLikeList .BookInfo .RewardBookUrl image{
+	width: 100%;
+}
+.IsLikeList .BookInfo .RewardBookName{
+	font-size: 28upx;
+	height: 50upx;
+	text-align: center;
+	line-height: 50upx;
+}
+.IsLikeListTitle{
+	width: 100%;
+	height: 80upx;
+	position: relative;
+	line-height: 80upx;
+	box-sizing: border-box;
+	padding: 0 30upx;
+}
+.IsLikeListTitle .IconLike{
+	width: 40upx;
+	margin-top: -6upx;
+	vertical-align: middle;
+}
+.IsLikeListTitle .TipText{
+	display: inline-block;
+	padding-left: 8upx;
+	font-size: 34upx;
+}
+.IsLikeListTitle .ListrigthBtn{
+	position: absolute;
+	right: 30upx;
+	display: inline-block;
+	height: 100%;
+	line-height: 80upx;
+}
+.IsLikeListTitle .ListrigthBtn view{
+	display: inline-block;
+	height: 100%;
+	font-size: 30upx;
+	color: #666666;
+	padding-right: 8upx;
+	vertical-align: top;
+}
+.IsLikeListTitle .ListrigthBtn image{
+	width: 40upx;
+	margin-top: -6upx;
+	vertical-align: middle;
+}
+.BookRankList{
+	position: relative;
+	width: 100%;
+	line-height: 0;
+	font-size: 0;
+	min-height: 1246upx;
+	padding: 20upx 20upx 50upx;
+	box-sizing: border-box;
+	background:rgb(253,226,61);
+}
+.BookRankList .TopBtnBox{
+	width: 100%;
+	position: relative;
+	line-height: 0;
+}
+.BookRankList .TopBtnBox .RankTopBg{
+	width: 100%;
+}
+.BookRankList .TopBtnBox .SwitchTimeRank{
+	position: absolute;
+	bottom: 60upx;
+	left: 0;
+	width: 100%;
+	height: 75upx;
+	line-height: 75upx;
+	padding-left: 30upx;
+	box-sizing: border-box;
+}
+.BookRankList .TopBtnBox .SwitchTimeRank label{
+	margin-right: 28upx;
+	font-size: 30upx;
+	padding: 10upx 0;
+	display: inline-block;
+	width: 115upx;
+	height: 44upx;
+	line-height: 44upx;
+	text-align: center;
+	border: 1px solid rgb(255,162,28);
+	color: rgb(255,162,28);
+	background: #FFFFFF;
+	border-radius: 16upx;
+}
+.BookRankList .TopBtnBox .SwitchTimeRank label.active{
+	color: #FFFFFF;
+	background: rgb(255,162,28);
+}
+.BookRankList .TopBtnBox .SwitchRankType{
+	position: absolute;
+	top: 0;left: 0;
+	width: 100%;
+	height: 70upx;
+	display: flex;
+	align-items: center;
+	line-height: 70upx;
+}
+.BookRankList .TopBtnBox .SwitchRankType .LableInfo{
+	flex: 1;
+	height: 100%;
+	line-height: 70upx;
+	vertical-align: top;
+	padding-left: 6upx;
+	display: inline-block;
+}
+.BookRankList .TopBtnBox .SwitchRankType .LableInfo.IconHome{
+	min-width: 12%;
+	max-width: 12%;
+}
+.BookRankList .TopBtnBox .SwitchRankType .LableInfo label{
+	font-size: 28upx;
+	display: inline-block;
+	width: auto;
+	height: 100%;
+	color: rgb(48,49,49);
+}
+.BookRankList .TopBtnBox .SwitchRankType .LableInfo label.active{
+	border-bottom: 6upx solid rgb(48,49,49);
+}
+.BookRankList .TopBtnBox .SwitchRankType .LableInfo image{
+	width: 40upx;
+	vertical-align: middle;
+}
+.BookRankList .BookRakList{
+	width: 100%;
+	height: auto;
+	/* margin-top: -50upx; */
+	background: #FFFFFF;
+}
+.BookRankList .BookRakList .BookInfo{
+	display: inline-block;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	padding: 20upx 30upx;
+}
+.BookRankList .BookRakList .BookInfo .RankBookUrl{
+	flex: 1;
+	min-width: 22%;
+	max-width: 22%;
+}
+.BookRankList .BookRakList .BookInfo .RankNumberOne{
+	position: absolute;
+	right: 0upx;
+	top: 0;
+	width: 90upx;
+}
+.BookRankList .BookRakList .BookInfo .RankNumberTwo{
+	position: absolute;
+	right: 5upx;
+	top: 0;
+	width: 80upx;
+}
+.BookRankList .BookRakList .BookInfo .RankNumberThree{
+	position: absolute;
+	right: 6upx;
+	top: 0;
+	width: 65upx;
+}
+.BookRankList .BookRakList .BookInfo .Otherright{
+	flex: 1;
+	min-width: 75%;
+	max-width: 75%;
+	position: relative;
+	padding-left: 16upx;
+	vertical-align: top;
+}
+.BookRankList .BookRakList .BookInfo .Otherright .RankBookName{
+	height: 45upx;
+	display: inline-block;
+	width: 80%;
+	font-size: 32upx;
+	line-height: 45upx;
+}
+.BookRankList .BookRakList .BookInfo .Otherright .RankBookUpdata{
+	height: 45upx;
+	display: inline-block;
+	width: 80%;
+	color: #999999;
+	font-size: 28upx;
+	line-height: 45upx;
+}
+.BookRankList .BookRakList .BookInfo .Otherright .BookOther{
+	position: absolute;
+	bottom: 6upx;
+	font-size: 26upx;
+	height: 40upx;
+	line-height: 40upx;
+	box-sizing: border-box;
+	padding-left: 16upx;
+	color: #666666;
+	left:0;width: 100%;
+}
+.BookRankList .BookRakList .BookInfo .Otherright .BookOther label{
+	background: rgb(254, 248, 213);
+	padding: 8upx 16upx;
+	margin-right: 6upx;
+}
+.BookRankList .BookRakList .BookInfo .Otherright .BookOther .rightNumber{
+	position: absolute;
+	right: 0;
+	height: 100%;
+	background: transparent;
+	padding: 0;
+	color: #999999;
+}
+/***************************漫画详情********************************/
+.DetailsBox{
+	width: 100%;
+	position: relative;
+	box-sizing: border-box;
+}
+.DetailsBox .BookMaxUrl{
+	width: 100%;
+	max-height: 420upx;
+	height: auto;
+	position: relative;
+}
+.DetailsBox .BookMaxUrl .DetailsUrl{
+	width: 100%;
+}
+.DetailsBox .BookMaxUrl .LayerBox{
+	position: absolute;
+	top: 0;left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 200;
+}
+.DetailsBox .BookMaxUrl .IconGoHome{
+	position: absolute;
+	right: 30upx;top: 30upx;
+	display: inline-block;
+	width: 70upx;
+	text-align: center;
+	z-index: 210;
+	height: 70upx;
+	line-height: 70upx;
+	font-size: 0;
+	background: rgba(253,226,61,0.9);
+	border-radius: 50%;
+}
+.DetailsBox .BookMaxUrl .IconGoHome image{
+	width: 60%;
+	margin-top: -4upx;
+	vertical-align: middle;
+}
+.DetailsBox .BookMaxUrl .BookDetailsName{
+	position: absolute;
+	width: 100%;
+	padding: 0 30upx;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	font-size: 38upx;
+	z-index: 211;
+	bottom: 120upx;left: 0;
+}
+.DetailsBox .BookMaxUrl .BookDetailsOther{
+	position: absolute;
+	width: 100%;
+	padding: 0 30upx;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	z-index: 211;
+	bottom: 65upx;left: 0;
+}
+.DetailsBox .BookMaxUrl .BookDetailsOther .Otherleft{
+	height:60upx;
+	display: inline-block;
+	line-height: 60upx;
+}
+.DetailsBox .BookMaxUrl .BookDetailsOther .Otherleft image{
+	width: 44upx;
+	vertical-align: middle;
+}
+.DetailsBox .BookMaxUrl .BookDetailsOther .Otherleft .SellNumber{
+	vertical-align: middle;
+	font-size: 28upx;
+	padding: 0 10upx;
+}
+.DetailsBox .BookMaxUrl .BookDetailsOther .Otherleft .BookType{
+	vertical-align: middle;
+	font-size:26upx;
+	background: rgba(65,55,22,0.8);
+	margin-right:8upx;
+	border-radius: 16upx;
+	padding:4upx 14upx;
+}
+.DetailsBox .BookMaxUrl .BookDetailsOther .Otherright{
+	position: absolute;
+	right: 30upx;top: 0;
+	height:60upx;
+	display: inline-block;
+	line-height: 60upx;
+}
+.DetailsBox .BookMaxUrl .BookDetailsOther .Otherright label{
+	font-size: 28upx;
+}
+.DetailsBox .BookMaxUrl .BookDetailsOther .Otherright label.rightText{
+	color: rgb(214, 226, 36);
+}
+.BottomOther{
+	position: fixed;
+	bottom: 0;left: 0;
+	width: 100%;
+	height: 80upx;
+	display: flex;
+	font-size: 0;z-index: 360;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	background: #FFFFFF;
+	border-top: 1px solid #EEEEEE;
+	line-height: 80upx;
+}
+.BottomOther label{
+	flex: 1;
+	display: inline-block;
+	min-width: 33.3%;
+	text-align: center;
+	font-size: 28upx;
+	height: 100%;
+	line-height: 80upx;
+	vertical-align: top;
+	max-width: 33.3%;
+}
+.BottomOther label image{
+	width: 30upx;
+	margin-top: -4upx;
+	margin-right:12upx;
+	vertical-align: middle;
+}
+.BottomOther label button{
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+	font-size: 28upx;
+	font-weight: 600;
+	line-height: 80upx;
+	background: rgb(253,226,61);
+	height: 100%;
+	border-radius: 30upx;
+}
+.DetailsBox .ContentBox{
+	position: absolute;
+	background: #FFFFFF;
+	top: 374upx;left: 0;
+	width: 100%;
+	z-index: 300;
+	border-top-left-radius:36upx;
+	border-top-right-radius: 36upx;
+	padding-bottom:86upx;
+	min-height: 790upx;
+}
+.DetailsBox .ContentBox .DetailsSwitch{
+	display:flex;
+	width: 100%;
+	height: 90upx;
+	line-height: 90upx;
+	justify-content: center;
+	align-items: center;
+}
+.DetailsBox .ContentBox .DetailsSwitch view{
+	flex: 1;
+	display: inline-block;
+	height: 100%;
+	min-width: 50%;
+	max-width: 50%;
+	font-size: 32upx;
+	text-align: center;
+	vertical-align: top;
+}
+.DetailsBox .ContentBox .DetailsSwitch view.Active label{
+	display: inline-block;
+	height: 100%;
+	width: auto;
+	padding: 0 12upx;
+	border-bottom: 6upx solid rgb(253,226,61);
+}
+.DetailsBox .ContentBox .DetailsContent{
+	width: 100%;
+	box-sizing: border-box;
+}
+.DetailsBox .ContentBox .DetailsContent .DetailsText{
+	padding:35upx 30upx;
+	font-size: 30upx;
+	color: #666666;
+}
+.DetailsBox .ContentBox .DetailsContent .CelebrityBox{
+	width: 100%;
+	box-sizing: border-box;
+	border-bottom: 1px solid #EEEEEE;
+	padding:0upx 30upx 0;
+}
+.DetailsBox .ContentBox .DetailsContent .CelebrityBox .CelebrityTit{
+	height: 90upx;
+	width: 100%;
+	position: relative;
+	line-height: 90upx;
+}
+.DetailsBox .ContentBox .DetailsContent .CelebrityBox .CelebrityTit image{
+	width: 50upx;
+	vertical-align: middle;
+}
+.DetailsBox .ContentBox .DetailsContent .CelebrityBox .CelebrityTit label{
+	padding-left: 10upx;
+	vertical-align: middle;
+	font-size: 32upx;
+	font-weight: 600;
+}
+.DetailsBox .ContentBox .DetailsContent .CelebrityBox .CelebrityTit label.rightText{
+	position: absolute;
+	right:0upx;top: 0;
+	display: inline-block;
+	height: 100%;
+	font-weight:500;
+	color: #666666;
+	line-height: 90upx;
+	font-size: 28upx;
+}
+.DetailsBox .ContentBox .DetailsContent .CelebrityBox .CelebrityList{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	padding:10upx 0 34upx;
+}
+.DetailsBox .ContentBox .DetailsContent .CelebrityBox .CelebrityList .CelebrityInfo{
+	flex: 1;
+	display: inline-block;
+	text-align: center;
+	min-width: 20%;
+	position: relative;
+	max-width: 20%;
+}
+.DetailsBox .ContentBox .DetailsContent .CelebrityBox .CelebrityList .CelebrityInfo image{
+	width:65%;
+	border-radius: 50%;
+}
+.DetailsBox .ContentBox .DetailsContent .CelebrityBox .CelebrityList .CelebrityInfo .RewardNumber{
+	position: absolute;
+	top:70upx;left: 23%;
+	width: 54%;
+	padding:0;
+	color: #333333;
+	background: rgb(253,226,61);
+	border-radius: 16upx;
+	font-size:24upx;
+}
+.DetailsBox .ContentBox .DetailsContent .CelebrityBox .CelebrityList .CelebrityInfo .CelebrityName{
+	width: 100%;
+	padding-top:16upx;
+	font-size:30upx;
+}
+.DetailsBox .ContentBox .DetailsContent .CommentBox{
+	width: 100%;
+	box-sizing: border-box;
+	padding:0upx 30upx;
+}
+.DetailsBox .ContentBox .DetailsContent .CommentBox .NullCommentList{
+	width: 100%;
+	text-align: center;
+	height: 80upx;
+	line-height: 80upx;
+	color: #999999;
+	font-size: 30upx;
+}
+.DetailsBox .ContentBox .DetailsContent .CommentBox .CommentTitBox{
+	width: 100%;
+	position: relative;
+	height: 90upx;
+	line-height: 90upx;
+}
+.DetailsBox .ContentBox .DetailsContent .CommentBox .CommentTitBox image{
+	width: 40upx;
+	vertical-align: middle;
+}
+.DetailsBox .ContentBox .DetailsContent .CommentBox .CommentTitBox .TitText{
+	vertical-align: middle;
+	font-size: 32upx;
+	font-weight: 600;
+	padding-left: 10upx;
+}
+.DetailsBox .ContentBox .DetailsContent .CommentBox .CommentTitBox image.EditIcon{
+	position: absolute;
+	right: 0;
+	top: 28upx;
+}
+.DetailsBox .ContentBox .DetailsContent .CommentList{
+	width: 100%;
+	padding: 10upx 0 20upx;
+	box-sizing: border-box;
+}
+.DetailsBox .ContentBox .DetailsContent .CommentList .CommentOther{
+	width: 100%;
+	height:90upx;
+	position: relative;
+	line-height: 90upx;
+}
+.DetailsBox .ContentBox .DetailsContent .CommentList .CommentOther image{
+	width: 80upx;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.DetailsBox .ContentBox .DetailsContent .CommentList .CommentOther .ReleaseInfo{
+	display:inline-block;
+	width: 60%;
+	height: 100%;
+	line-height: 0;
+	padding-left: 16upx;
+	vertical-align:middle;
+}
+.DetailsBox .ContentBox .DetailsContent .CommentList .CommentOther .ReleaseInfo .ReleaseUser{
+	width: 100%;
+	height: 50upx;
+	font-size: 32upx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 40upx;
+}
+.DetailsBox .ContentBox .DetailsContent .CommentList .CommentOther .ReleaseInfo .ReleaseTime{
+	width: 100%;
+	height: 40upx;
+	font-size: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 40upx;
+}
+.DetailsBox .ContentBox .DetailsContent .CommentList .CommentOther .ReleaseInfo .ReleaseTime image{
+	width: 30upx;
+	vertical-align: middle;
+}
+.DetailsBox .ContentBox .DetailsContent .CommentList .CommentOther .ReleaseInfo .ReleaseTime label{
+	vertical-align: middle;
+	font-size: 28upx;
+	color: #999999;
+	padding-left: 8upx;
+}
+.DetailsBox .ContentBox .DetailsContent .CommentList .CommentOther .OtherRight{
+	position: absolute;
+	right: 0;top: 0;
+	height: 100%;
+	line-height: 80upx;
+}
+.DetailsBox .ContentBox .DetailsContent .CommentList .CommentOther .OtherRight label{
+	font-size: 30upx;
+	color: #999999;
+	padding-right:10upx;
+	vertical-align: middle;
+}
+.DetailsBox .ContentBox .DetailsContent .CommentList .CommentOther .OtherRight image{
+	width: 42upx;
+	vertical-align: middle;
+}
+.DetailsBox .ContentBox .DetailsContent .CommentList .CommentText{
+	width: 100%;
+	font-size: 32upx;
+	word-break: break-all;
+	box-sizing: border-box;
+	padding:20upx 30upx 20upx 100upx;
+}
+.DetailsBox .ContentBox .DetailsContent .AllComment{
+	width: 100%;
+	box-sizing: border-box;
+	padding:10upx 30upx 40upx;
+}
+.DetailsBox .ContentBox .DetailsContent .AllComment button{
+	width: 100%;
+	font-size: 32upx;
+	border: none;
+	color: #333333;
+	background: rgb(242,241,242);
+	border-radius: 36upx;
+	text-align: center;
+}
+.DetailsBox .ContentBox .DetailsContent .AllComment button:after{
+	border: none;
+}
+.DetailsCatalogBox{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 40upx 30upx;
+}
+.DetailsCatalogBox .CatalogTit{
+	width: 100%;
+	height:80upx;
+	line-height: 80upx;
+	position: relative;
+}
+.DetailsCatalogBox .CatalogTit .TitText{
+	font-size: 34upx;
+	font-weight: 600;
+	display: inline-block;
+	height: 100%;
+	vertical-align: top;
+}
+.DetailsCatalogBox .CatalogTit .Dian{
+	font-size: 80upx;
+	height: 100%;
+	line-height: 70upx;
+	padding: 0 10upx;
+	display: inline-block;
+	color:rgb(253,226,61);
+	vertical-align: top;
+}
+.DetailsCatalogBox .CatalogTit .CatalogTime{
+	font-size:26upx;
+	color: #999999;
+	display: inline-block;
+	height: 100%;
+	vertical-align: top;
+}
+.DetailsCatalogBox .CatalogTit .Catalogsort{
+	position: absolute;
+	right: 0;top: 0;
+	display: inline-block;
+	height: 100%;
+	font-size:28upx;
+}
+.DetailsCatalogBox .CatalogList{
+	width: 100%;
+	padding-top: 10upx;
+	flex-wrap: wrap;
+	display: flex;
+}
+.DetailsCatalogBox .CatalogList .CalalogInfo{
+	flex: 1;
+	min-width: 33.3%;
+	max-width: 33.3%;
+	overflow: hidden;
+	padding:6upx 0;
+}
+.DetailsCatalogBox .CatalogList .CalalogInfo label{
+	width: 86%;
+	height: 66upx;
+	line-height: 66upx;
+	font-size:28upx;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #333333;
+	background: rgb(244,244,244);
+	border-radius: 10upx;
+	display: inline-block;
+}
+/*****************************找书*******************************/
+/* .MaxContentBox{
+	height: 1150upx;
+	overflow: hidden;
+} */
+.SwitchBookType{
+	width: 100%;
+	box-sizing: border-box;
+	padding:20upx 30upx 0;
+}
+.SwitchBookType .SeekSearch{
+	width: 100%;
+	height: 75upx;
+}
+.SwitchBookType .SeekSearch label{
+	width: 100%;
+	height: 100%;
+	line-height:75upx;
+	text-align: center;
+	color: #666666;
+	border-radius: 40upx;
+	display: inline-block;
+	background: rgb(253,226,61);
+	vertical-align: middle;
+}
+.SwitchBookType .SeekSearch label image{
+	width: 34upx;
+	margin-top: -6upx;
+	vertical-align: middle;
+}
+.SwitchBookType .SeekSearch label .SeekSearchText{
+	display: inline-block;
+	height:100%;
+	font-size: 30upx;
+	padding-left: 15upx;
+	vertical-align: top;
+}
+.SwitchBookType .SeekBookTypeList{
+	width: 100%;
+	flex-wrap: wrap;
+	display: flex;
+	padding: 24upx 0 0upx;
+}
+.SwitchBookType .SeekBookTypeList view{
+	flex: 1;
+	display: inline-block;
+	padding: 14upx 0 0;
+	min-width: 14.2%;
+	max-width: 14.2%;
+}
+.SwitchBookType .SeekBookTypeList view label{
+	width: 100%;
+	height: 50upx;
+	font-size:28upx;
+	text-align: center;
+	line-height: 45upx;
+	box-sizing: border-box;
+	color: #666666;
+	display: inline-block;
+}
+.SwitchBookType .SeekBookTypeList view.Active label{
+	border: 1px solid rgb(253,226,61);
+	border-radius: 20upx;
+	color: rgb(253,226,61);
+}
+.OverState{
+	width: 100%;
+	padding: 10upx 30upx;
+	box-sizing: border-box;
+}
+.OverState .OverLable{
+	width: auto;
+	font-size: 0;
+	display: inline-block;
+}
+.OverState .OverLable label{
+	font-size: 28upx;
+	display: inline-block;
+	width:95upx;
+	height: 50upx;
+	line-height: 44upx;
+	box-sizing: border-box;
+	text-align: center;
+	color: #666666;
+}
+.OverState .OverLable.Active label{
+	border: 1px solid rgb(253,226,61);
+    border-radius: 20upx;
+    color: rgb(253,226,61);
+}
+.RankState{
+	width: 100%;
+	padding:10upx 30upx;
+	box-sizing: border-box;
+}
+.RankState .OverLable{
+	width: auto;
+	font-size: 0;
+	display: inline-block;
+}
+.RankState .OverLable label{
+	font-size: 28upx;
+	display: inline-block;
+	width:180upx;
+	height: 50upx;
+	line-height: 44upx;
+	box-sizing: border-box;
+	text-align: center;
+	color: #666666;
+}
+.RankState .OverLable.Active label{
+	border: 1px solid rgb(253,226,61);
+    border-radius:20upx;
+    color: rgb(253,226,61);
+}
+.SeekBookList{
+	width: 100%;
+	box-sizing: border-box;
+	padding:16upx 30upx;
+	display: flex;
+	flex-wrap: wrap;
+}
+.SeekBookList .SeekBookLable{
+	flex: 1;
+	text-align: center;
+	padding: 10upx 0;
+	font-size: 0;
+	min-width: 33.3%;
+	max-width: 33.3%;
+}
+.SeekBookList .SeekBookLable .SeekBookUrl{
+	width: 100%;
+	overflow: hidden;
+	height: auto;
+	max-height: 280upx;
+	position: relative;
+}
+.SeekBookList .SeekBookLable .SeekBookUrl image{
+	width: 94%;
+	vertical-align: middle;
+}
+.SeekBookList .SeekBookLable .SeekBookUrl .SeekBookUpdate{
+	position: absolute;
+	bottom: 10upx;left: 0;
+	display: inline-block;
+	width: 100%;
+	font-size: 26upx;
+	z-index: 4;
+	color: #F3F3F3;
+}
+.SeekBookList .SeekBookLable .SeekBookName{
+	display: inline-block;
+	width: 100%;
+	height: 50upx;
+	line-height: 50upx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 28upx;
+}
+.GiftPanel{
+	position: fixed;
+	top: 0;left: 0;
+	bottom: 0;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	z-index: 900;
+}
+.GiftPanel .BottomBox{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	font-size: 0;
+}
+.GiftPanel .BottomBox image.GiftBg{
+	width:100%;
+}
+.CommentBtnBox{
+	width: 100%;
+	box-sizing: border-box;
+	padding:10upx 20upx;
+	height: 80upx;
+	line-height:60upx;
+	font-size: 0;
+	position: relative;
+}
+.CommentBtnBox button{
+	height: 100%;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	line-height: 60upx;
+	width: 13%;
+	border: none;
+	font-size: 28upx;
+}
+.CommentBtnBox button.CancelBtn{
+	background: #F2F2F2;
+	border: none;
+}
+.CommentBtnBox button.SendBtn{
+	background: #FD973D;
+	color: #FFFFFF;
+	height: 60upx;
+	position: absolute;
+	top: 10upx;right: 20upx;
+	border: none;
+}
+.CommentInputBox{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10upx 20upx;
+}
+.CommentInputBox .CommentInput{
+	width: 100%;
+	box-sizing: border-box;
+	height: 300upx;
+	font-size: 30upx;
+	padding: 10upx;
+	line-height: 42upx;
+	background: #F2F2F2;
+}
+.CommentInputBox .CommentInput img{
+	width: 32upx;
+}
+.ExpressionBox{
+	width: 100%;
+	padding:6upx 20upx;
+	box-sizing: border-box;
+}
+.ExpressionBox .ExpressionBtn{
+	display: inline-block;
+	width: 100%;
+}
+.ExpressionBox .ExpressionBtn image{
+	width: 55upx;
+}
+.ExpressionBox .ExpressionList{
+	width: 100%;
+	display: inline-block;
+}
+.ExpressionBox .ExpressionList .Expression{
+	flex: 1;
+	display: inline-block;
+	min-width: 10%;
+	max-width: 10%;
+}
+.ExpressionBox .ExpressionList .Expression image{
+	width: 70%;
+}

@@ -1,0 +1,397 @@
+
+/*-------------------------- ﬁØ? næø?ËÏ?? -------------------------- */
+.g-content {  background-color: #ffffff!important;  overflow: hidden  }
+/*zy*/.home-recommend{ overflow: hidden; background-color: white; margin-bottom: 18px;}
+/*zy#home-recommend{ padding: 0 0 0 10px;}*/
+/*¿Ú?????*/
+/*!*zy*!.banner_bg{ width: 100%;  height: 100%; position: relative;background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/banner-bg.png); background-repeat: no-repeat;background-size: 100%; padding-top: 10px; }*/
+/*zy*/.banner_bg{ width: 100%;  height: 100%; position: relative;background-repeat: no-repeat;background-size: 100%;}
+/*!*zy*!#home-slider {  width: 94%;  height: 100%; margin: 0 auto;   }*/
+/*zy*/#home-slider {  width: 100%;  height: 100%; margin: 0 auto;   }
+/*!*zy*!#home-slider img {  width: 100%;  height: 100%;box-shadow: 0 2px 3px rgba(0,0,0,.2); border-radius: 3px;      }*/
+/*zy*/#home-slider img {  width: 100%;  height: 100%; }
+
+/*‹˜???¿Ú????ÿ©???∫≈?ËÏ??*/
+#home-slider .mui-slider-indicator .mui-active.mui-indicator {  width: 18px; border-radius: 8px;  box-shadow:none; opacity: 1  }
+#home-slider .mui-slider-indicator .mui-indicator{  box-shadow:none;  width: 8px;  height: 8px;  margin: 1px 0px; background: #fff ; opacity: 0.7 }
+
+
+/*Œ…ÓÜ???ËÏ•≥??Îı?*/
+.home-header {   position: absolute;  top: 0;   z-index: 200;  }
+.home-title {  display: inline-block;  margin: 0 auto;  line-height: 30px;   }
+
+.home-tab {   position: relative }
+.home-tab .icon-boy{ width: 35px; height: 35px;display: inline-block;  vertical-align: top;  background-position: 35px 38px; position: absolute; left: -12px;  top: -6px;}
+.home-tab .icon-gril{ width: 35px; height: 35px;display: inline-block;  vertical-align: top;  background-position: 0px 38px; position: absolute; left: -12px;  top: -7px;}
+.home-tab a {  width: 33px; height: 91px; display: block; }
+
+
+
+.home-tab a.home-active {  color: #fff;  background-color: #ffffff;  }
+.home-tab a img{ width: 40px!important;}
+/*??????Îı?*/
+.home-hottag {  height: 70px; margin-bottom: 13px;  position: relative;  z-index: 2;  bottom: 0;  display: table;  width: 100%;  padding: 0;  table-layout: fixed;  border-top: 0;  border-bottom: 0;  -webkit-touch-callout: none;  }
+.home-hottag .home-hottag-item{  display: table-cell;  width: 1%;  text-align: center;  vertical-align: middle;  white-space: nowrap;  text-overflow: ellipsis;  color: #929292;  }
+.home-hottag-menu {  height: 50px; margin-bottom: 10px;  position: relative;  z-index: 2;  bottom: 0;  display: table;  width: 100%;  padding: 0;  table-layout: fixed;  border-top: 0;  border-bottom: 0;  -webkit-touch-callout: none;  margin-top: -1rem; z-index: 199  }
+.home-hottag-menu .home-hottag-item{  display: table-cell;  width: 1%;  text-align: center;  vertical-align: middle;  white-space: nowrap;  text-overflow: ellipsis;  color: #929292;  }
+
+/*‹˜?????????Îı?table›π∫≈?›π∫æ?*/
+.home-hottag .mui-table-view:after {  content: none;  }
+.home-hottag .mui-table-view.mui-grid-view {  padding: 0;  }
+
+
+
+.home-hottag .mui-table-view.mui-grid-view .mui-table-view-cell{
+	padding: 10px 0 0 6px;width: 20%;
+}
+.home-hottag .home-search{
+	width: 76%;
+	float: right;
+}
+.home-hottag .home-search .classify-input{background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/search-bg1.png);    padding: 0 15px;  width: 100%;  height: 35px;  line-height: 35px;   border-radius: 8px;
+	display: inline-block;  text-align: center;  font-size: 13px;  color: #676767;}
+.home-hottag .home-search .classify-input .icon-search{height: 20px;  width: 20px;  background-position: -70px -311px; margin-top: 8px;  vertical-align: top;  display: inline-flex; margin-right: 5px;background-size: 170px;  }
+
+/*›π∫≈?Œ…??¬D“u*/
+.home-hottag-border{
+    width: 100%;
+    height: 15%;
+    box-shadow:0px 2px 10px rgba(0,0,0,.4);
+    border-radius: 50% 50% 0 0;
+    margin-top: 5px;
+}
+
+/*‹˜????°ﬁ??»„??Å\Ω›Û¡??¬D“u*/
+.mui-card {  box-shadow: none;  border: none; clear: both; margin: 0;border-radius:0}
+
+/*Û›?“?Û›????ËÏ??*/
+/*zy*/.mui-card-title {padding: 5px 10px 12px 10px;    line-height: 35px; text-align: center;  position: relative;}
+/*zy*/.mui-card-title strong {   font-size: 16px;  color: #151515;  font-weight: 500;}
+.mui-card-title span { font-size: 12px; color: rgba(130, 130, 130, .7);}
+/*zy*/.mui-card-title a{  font-size: 12px; color: #999;}
+.mui-card-title i{ font-style:normal; padding-left: 24px;}
+.mui-card-title-more{ height: 27px; background: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/icon.png) no-repeat; background-position: -92px -119px; background-size: 113px;}
+.home-card-1{ padding-bottom: 15px;}
+.home-card-1 .mui-card-content, .home-card-2 .mui-card-content {  display: block;  width: 100%;  height: auto;  position: relative;  }
+/*zy*/.home-card-1 img, .home-card-2 img {  width: 100%;  height: 100%; }
+.home-card-2 .home-footer-title{  width: 74%; padding: 0 5px; }
+	/*?????Îı?*/
+.home-tag-top {  position: absolute;  top: 0;  left: 20px;  width: 13%;  height:auto;  z-index: 2;  }
+.home-tag-top img {  border-radius: 0;  }
+
+/*Û›?ÃG?*/
+/*.spec-imgList {  margin:0 15px 0px 0;  }*/
+.spec-imgList .mui-segmented-control.mui-segmented-control-inverted ,.spec-imgList .mui-segmented-control.mui-scroll-wrapper .mui-scroll{ height: 6.2rem;}
+.mui-segmented-control.mui-segmented-control-inverted .spec-imgLi {
+	margin: 0 10px 0 0;
+	display: inline-block;
+	height: 5.7rem;
+	overflow: hidden;
+	-webkit-transition: background-color .1s linear;
+	transition: background-color .1s linear;
+	text-align: center;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+/*zy*/.mui-segmented-control.mui-segmented-control-inverted .spec-imgLi img{  height: 5.7rem; border-radius: 2px;  }
+.slide{  width: 100%;  overflow: hidden;  position: relative;  margin-bottom: 18px;  margin-top: 5px;  }
+.slide .img{  overflow: hidden;  position: absolute;  transition: width 0.4s,height 0.4s,top 0.4s,left 0.4s,z-index 0.4s;  padding:0 7px;  }
+.slide .img img{  width: 100%;  height: auto;  border-radius: 4px;  }
+.slide .img1{  width: 40%;  height: 40%;  top: 30%;  left: -50%;  z-index: 1;  }
+.slide .img2{  width: 80%;  top: 0;  left: -70%;  z-index: 2;  }
+.slide .img3{  width: 80%;  top: 0;  left: 10%;  z-index: 3;  }
+.slide .img4{  width: 80%;  top: 0;  left: 90%;  z-index: 2;  }
+.slide .img5{  width: 40%;  height: 40%;  top: 30%;  left: 110%;  z-index: 1;  }
+/*∫Dà˚???Îı?*/
+.home-tag-bottom {  position: absolute;  right: 0;  bottom: -25px;  padding: 0 7px 0 0;  height: 20px;  font-size: 10px;
+	  border-radius: 10px;  color: #8f8f94;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;
+}
+
+.sprite-app-fire { background-image: url(/themes/wechat/yellow-theme/default-skin/src/img/y-bookhot-img.svg);  background-size: 16px;  background-position: center center;  width: 20px;  height: 20px;  margin: -5px 2px 0 2px;  }
+.home-tag-bottom .icon{  display: inline-block;  margin-left: 2px;  vertical-align:middle;}
+.home-card-1 .mui-card-footer, .home-card-2 .mui-card-footer { margin: 7px auto; margin-bottom: 0;}
+.home-card-2 .mui-control-item{  width: 100%;}
+
+/*Û›?“?Û›§Â??????*/
+.home-card-2 { padding: 0 0 10px 0; width: 49.5%; float: left; margin-right: 0.5%;}
+#y-home-card-2{ margin-right: 0; margin-left: 0.5%;}
+
+/*∫G∏Ó?ƒs»ﬂ??ÎÈ????ËÏ??*/
+.y-home-card-3{
+    width: 33.3%!important;
+    padding: 0 10px 8px 0;!important;
+}
+/*??ÃG???Ô[?*/
+.home-recommend-footer {  width: 100%;  height: auto;  overflow: hidden;  }
+.home-footer-kind {  float: left;  transform: scale(.9);padding: 0 5px;  line-height: 18px;  border-radius: 1rem;  color: #ffffff;  font-size: 11px;  }
+/*zy*/.home-footer-title { padding-left: 5px; float: left;  color: #555;  font-size: 14px;  width: 51%;  white-space: nowrap;  overflow: hidden; line-height: 18px;  text-overflow: ellipsis;  text-align: start;font-weight:600;}
+.home-footer-time {  float: right;  width: 35%;  color: #888888;  font-size: 12px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  text-align: end;  }
+.home-footer-time strong {  color: #fe6f6f;  font-weight: normal; padding: 0 0.1rem;  font-size: 12px;  }
+/*zy*/.home-footer-describe {  padding: 0 5px; margin: 2px 0 0 0;  color: #8f8f94;  font-size: 12px;  width: 100%;  height: auto;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  }
+
+/*»C??? nπ∑??*/
+/*zy*/#roll_top{ width: 40px; height: 40px; position: fixed; bottom: 0px; right: 20px; z-index: 2;}
+.y-index-toTop{  background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/gotoup.png);  background-size: 40px; position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));margin-bottom:80px;}
+
+/*zy*/#roll_top img{ width: 100%}
+
+
+/*---------------------------- ﬁØ? n∏F??? ---------------------------- */
+
+/* 6-20 zy*/
+/*.home-header {  top: 20px; right: 0;  }*/
+.home-header {  top: 3%; left: 10px;  }
+/*.home-tab a {  width: 60px;  height: 40px;  }*/
+.home-tab a {  height: 40px; }
+/*.home-footer-describe{ color: #666}*/
+.home-footer-describe{ color: #8f8f94}
+/*.home-footer-title{ color: #121212; font-weight: 400}*/
+.home-footer-title{ color: #191919; font-weight: 500;}
+.banner_bg{padding-bottom: 10px;}
+/*#home-slider{    box-shadow: 0 3px 5px rgba(0,0,0,.2);}*/
+#home-slider{  }
+#home-slider img{box-shadow: none;}
+
+.home-search-icon{background-position: center center; background-repeat: no-repeat;  width: 40px; height: 39px; background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/search.png); background-size: 30px; position: absolute; top:3%; right: 5px; z-index: 300; float: right;}
+.search-icon{ width: 50px; height: 50px; float: right;}
+
+.home-menu-img{ width: 80%; margin:0 auto }
+
+.banner-bottom{ margin-top: -7.5%; width: 100%; z-index: 190; position: relative }
+.banner-bottom img{ z-index: 190; width: 100% }
+
+
+/*---------------------------- ﬁØ? n«Ú???∫•??æJ? 8-10 ---------------------------- */
+.y-newbook{
+    display: flex;
+    color: #50504f;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+.y-newbook-img{
+    width: 40%;
+    padding: 0 10px 0 0;
+}
+.y-newbook-img img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.y-newbook-data{
+    position: relative;
+    width: 60%;
+    padding: 3px 10px 0 0;
+}
+.y-newbook-title{
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    padding: 0 5px;
+}
+.y-newbook-like{
+    margin-top: 2px;
+    font-size: 12px;
+    color: rgb(208, 208, 216);
+}
+.y-newbook-data p{
+    font-size: 12px;
+    width: 90%;
+    position: absolute;
+    margin-bottom: 0;
+    left: 0;
+    bottom: 0;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+}
+.y-newbook-data i{
+    line-height: 18px;
+    padding: 0 5px;
+    border-radius: 15px;
+    font-style: normal;
+    position: absolute;
+    font-size: 12px;
+    top: 4px;
+    right: 10px;
+    color: #ffffff;
+    background-color: #8f8f94;
+}
+.y-classic-end{
+
+}
+.y-classic-end ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.y-classic-end li{
+    width: 32.7%;
+    display: block;
+}
+.y-classic-end li a{
+    display: block;
+}
+.y-classic-end li p{
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    font-size: 12px;
+    padding: 0 5px;
+}
+.y-classic-end li img{
+    width: 100%;
+}
+.y-mui-card-title{
+    margin-bottom: 0;
+}
+.y-mui-card-title img{
+    height: 20px;
+}
+.y-mui-card-title strong{
+    background-color: #fced9d;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 16px!important;
+}
+.y-qrcodey{
+    margin: 20px 0 42px 0;
+}
+.y-qrcodey-box{
+    font-size: .7rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.y-qrcodey-box a{
+    font-size: 17px;
+    padding: 5px 0;
+    border-radius: 40px;
+    width: 40%;
+    display: block;
+    color: #680d0d;
+    background: linear-gradient(to right,#facb27,#fbe566);
+    text-align: center;
+    font-weight: 500;
+}
+.y-qrcodey-box span{
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+}
+.y-qrcodey-box i:nth-child(1){
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    width: 90px;
+    height: 30px;
+    display: block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/y-qrcodey-left.png);
+}
+.y-qrcodey-box i:nth-child(2){
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    width: 90px;
+    height: 30px;
+    display: block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/y-qrcodey-right.png);
+}
+.y-qrcodey-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+.y-qrcodey-img img{
+    display: block;
+    width: 6rem;
+    height: 6rem;
+    z-index: 1;
+    border: 3px solid #fae05b;
+}
+.mui-card-title strong{
+    position: relative;
+}
+.mui-card-title strong i{
+    position: absolute;
+    top: 5px;
+    left: -37px;
+    width: 35px;
+    height: 20px;
+    display: block;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/y-title-boximg.png);
+}
+.mui-card-title strong i:nth-child(2){
+    position: absolute;
+    top: 5px;
+    left: auto;
+    right: -37px;
+    transform:scaleX(-1);
+}
+.home-card-1 .mui-card-footer{
+    /*padding-left: 10px;*/
+}
+.mui-card-title strong{
+    font-size: 19px;
+}
+.y-newbook-data .y-newbook-title{
+    padding: 0;
+}
+/*?ËÏ•≥?????°Ã???ÙÈàÃƒX?*/
+.y-sex-popup{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.y-sex-popup-box{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 50%;
+    height: 220px;
+    position: relative;
+    opacity: 0.2;
+    transition: all 0.2s;
+    transform: scale3d( 0, 0, 0 );
+}
+.y-sex-popup-box img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.y-sex-popup-title{
+    position: absolute;
+    bottom: 25px;
+    font-size: 16px;
+}
+.sex-active{
+    display: flex;
+}
+.sex-active2{
+    transform: scale3d( 1, 1, 1 );
+    transition: all 0.2s;
+    opacity: 1;
+}
+.y-qrcodey-bottom{
+    z-index: 2;
+}
+.y-qrcodey-bottom img{
+    width: 100%;
+}

@@ -1,0 +1,122 @@
+/*图标文件*/
+.icon-source-list {  background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/icon.png);  background-size: 130px;  }
+/*首页榜单图标*/
+.home-hottag { position: absolute; background-size: 100%;  margin-top: -17px;  background-repeat: no-repeat;  }
+.home-hottag .home-hottag-item{  padding-top: 26px;}
+.home-hottag span{ display: block;  margin-top: 2px;  font-size: 14px;  color: #555;}
+.home-hottag .home-hottag-item .icon-menu-list{background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/icon-home-menu.png); background-size: 175px;width: 40px; height: 40px;display: inline-block;  vertical-align: top;}
+/*zy*/.home-hottag .home-hottag-item .pop-hank{background-position: -43px -1px;}
+/*zy*/.home-hottag .home-hottag-item .new-hank{background-position: -1px -2px;}
+/*zy*/.home-hottag .home-hottag-item .end-hank{background-position: -87px -2px;}
+/*zy*/.home-hottag .home-hottag-item .give-hank{background-position: 42px -2px;}
+
+/*边框外阴��?*/
+/*zy*/.box {  position: relative;  height: 50px;  width: 100%;  margin-top: -10px; /*border-radius: 50% 50% 0 0;*/  background-color: #fff;  }
+
+
+/*首页男女切换*/
+/*.home-tab a.boy{background: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/home-boy.png);background-size: 33px }*/
+.home-tab a.boy{background-image: url("http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/home-boy-new.png");background-size: 30px;width: 40px; background-position: center center;}
+/*.home-tab a.gril{background: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/home-girl.png);background-size: 33px }*/
+.home-tab a.girl{background: url("http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/home-girl-new.png");background-size: 30px;width: 40px; background-position: center center;}
+
+/*底部图标*/
+.footer-nav-icon{background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/footer-nav-icon.png);}
+.mui-bar{ background: #ffffff;box-shadow:none;border-top: 1px solid #ececec; height: 50px}
+/*zy*/.nav-footer .footer-nav-icon{width: 32px;  height: 33px;  display: block; text-align: center; margin: 0 auto;  vertical-align: top;background-size: 200px;position: absolute; left: 50%; margin-left: -16px; top: 1px }
+/*zy*/.nav-footer .icon-recommended{ background-position: -15px -9px;  }
+/*zy*/.nav-footer .icon-class{ background-position: -63px -9px}
+/*zy*/.nav-footer .icon-bookcase{ background-position: -111px -10px;  }
+.nav-footer .icon-topic{ background-position: -55px -141px;  }
+/*zy*/.nav-footer .icon-mine{ background-position: -156px -10px;  }
+
+/*zy*/.nav-footer .mui-active .icon-recommended{ background-position: -15px 46px;}
+/*zy*/.nav-footer .mui-active .icon-class{ background-position: -63px -54px;   }
+/*zy*/.nav-footer .mui-active .icon-bookcase{ background-position: -111px -55px;  }
+.nav-footer .mui-active .icon-topic{ background-position: -55px -169px;  }
+/*zy*/.nav-footer .mui-active .icon-mine{ background-position: -156px -55px;  }
+/*zy*/.mui-bar-tab .mui-tab-item.mui-active{color: #282121; font-weight: bold}
+/*当前焦点图点*/
+#home-slider .mui-slider-indicator .mui-active.mui-indicator { .nav-footer .icon-mine background-color: #fe6f6f;  }
+/*分类顶部*/
+/*zy*/.mui-bar-nav.classify-header {  }
+.mui-bar-nav.classify-header .classify-input {  border-bottom: solid 1px rgba(255, 255, 255, 0.44)   }
+.classify-listDown .classify-scroll {  background: #b35870;  }
+.classify-listDown .classify-scroll {  background-image: linear-gradient( 135deg, #FEB692 10%, #EA5455 100%);;   }
+/*分类人气更新*/
+.classify-tab a.classifly-active:after {        content: "";
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 95%;
+    height: 20px;
+    border: 1px solid #4f4e4e;
+    border-radius: 20px;}
+.icon-list-class{ background: url("http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/icon-list-class.png"); background-size: 55px;    }
+.classify-tab a .icon-renqi{  background-position: 5px -26px; margin-right: 6px; margin-top: 4px;}
+/*.classify-tab a.classifly-active .icon-renqi{  background-position: 5px 1px; margin-right: 6px; margin-top: 4px;}*/
+.classify-tab a .icon-gengxin{ background-position: -24px -27px; margin-right:7px; margin-top: 3px;margin-left: 4px; }
+/*.classify-tab a.classifly-active .icon-gengxin{  background-position: -24px -1px; margin-right: 7px; margin-top: 3px; margin-left: 4px; }*/
+/*排行榜头��?*/
+.tracer-select{ /*background-image: linear-gradient( 135deg, #FEB692 10%, #EA5455 100%);;*/}
+/*排行日榜月榜切换*/
+.tracer-switchover-bg{ background-repeat: repeat-x; background-size: 80px; }
+.tracer-switchover{/* background-image: linear-gradient( 135deg, #FEB692 10%, #EA5455 100%);; */}
+.tracer-switchover a.active { /*background: #fff; color: #cd6681;*/}
+/*标题样式覆盖*/
+/*zy.cor-content .mui-bar{ background-image: linear-gradient( 135deg, #FEB692 10%, #EA5455 100%); }*/
+/*书架顶部*/
+.w-shelfTab {   }
+.w-shelfBooklist ul li .w-bookPic .w-bookNew {   background-color: #ffd321; border: 1px solid #421011   }
+/*zy*/.w-bookContinue {  border: 1px solid #afaeae;  color: #747373;    }
+.updated-daily-table{  }
+/*书架整理选择按钮*/
+.mui-checkbox.w-checkbox1 input[type=checkbox]:before ,.mui-checkbox.w-checkbox2 input[type=checkbox]:before ,.mui-checkbox.com-checkbox3 input[type=checkbox]:before {  color: #fbbd0e;  }
+/*意见反馈按钮*/
+.feedback-btn button {  background-color:#fde23d    }
+/*详情页完结连��?*/
+.wd-header .ft .icon-home{ background-color: #cd6681; border-radius: 50%}
+.wd-header .ft .ft-content .ft-content-wanjie{  background-image: linear-gradient( 135deg, #FEB692 10%, #EA5455 100%);;  }
+/*详情目录切换*/
+.book-content-table .mui-segmented-control .mui-control-item.mui-active{  color: #cd6681;   }
+.book-content-table .mui-segmented-control .mui-control-item.mui-active:after{  background-image: linear-gradient( 135deg, #FEB692 10%, #EA5455 100%); }
+/*礼物赠��?*/
+.send-gift .send-btn{background-image: linear-gradient( 135deg, #fde23d 10%, #fde23d 100%); }
+.gift-list .gift-num span{ background:#cd6681;}
+.gift-close{ background: #fd973d;}
+/*阅读按钮*/
+.book-footer .btn-read { color: #000; z-index: 1; font-weight: bold; letter-spacing: 2px; background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/readBtn.png); background-position: center; background-repeat: no-repeat; background-size: contain;   }
+.book-footer .btn-sub .icon-gift{ background-size: 220px; background-position: -6px -438px;     margin-left: 3px;   margin-top: 12px; margin-right: 6px }
+.book-footer .btn-sub .icon-collect{ background-size: 130px; background-position: -68px -31px;   margin-left: 3px;    margin-top: 12px; margin-right: 7px }
+.book-footer .btn-sub.is-active .icon-collect{ background-size: 130px; background-position: -91px -31px;   margin-left: 3px;   margin-top: 12px; margin-right: 7px }
+
+.community-detail-comment-title .mod-commentLink{  background-image: linear-gradient( 135deg, #FEB692 10%, #EA5455 100%);;}
+.book-content-class .book-date span p{ color: #cd6681;}
+.community-detail-comment .comment-more{  color: #5a5355;   }
+
+.detail-info-control .item span{color: #7d7d7d;  }
+
+.detail-chapter-list ul li.is-active{  border: 1px solid #ef555f;  background: #ef555f;}
+.comment-mod .send span.btn{ background: #ff9a03  }
+.send-gift h2 span .gift-recharge{ background-image: linear-gradient( 135deg, #FEB692 10%, #EA5455 100%);; }
+.gift-list .gift-num span{background:rgba(255, 145, 10, 0.7);}
+.send-gift .mui-segmented-control.mui-segmented-control-inverted .gift-listLi.active{ border: 1px solid #ffdb07;}
+.mui-bar-nav.classify-header .classify-input {  color: rgba(55,15,2,0.8);    }
+.search-input input[type=search] {  background: rgba(221, 82, 77, 0);  }
+/*个人中心顶部��?*/
+.person-top {background-image: url("http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/waveTop.png");  }
+.gift-list .gift-fans-point{  background: #ff9a03  }
+
+/*充值页*/
+.y-pay-header{  background-color: #fde23d;  }
+
+
+
+/* 6-20 zy*/
+/*.home-tab a.boy{background-size: 60px; background-repeat: no-repeat }*/
+.home-tab a.boy{background-size: 30px; background-repeat: no-repeat }
+.home-tab a.girl{background-size: 30px; background-repeat: no-repeat }
+.home-hottag span{ color: #121212}
+.box{ margin-top:-5px;}
+.home-hottag{ margin-top: 0}
+.home-hottag .home-hottag-item{padding-top: 18px;}

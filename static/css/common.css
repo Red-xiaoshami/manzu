@@ -1,0 +1,881 @@
+/*  rem鑷€傚簲  */
+@media only screen and (min-width: 360px){
+ html {
+  font-size: 22.5px!important;
+ }
+}
+@media only screen and (min-width: 375px){
+ html {
+  font-size: 23.4375px!important;
+ }
+}
+@media only screen and (min-width: 414px){
+ html {
+  font-size: 25.875px!important;
+ }
+}
+@media only screen and (min-width: 768px){
+ html {
+  font-size: 48px!important;
+ }
+}
+
+body {  background: #fff;     font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', 'WenQuanYi Micro Hei', Arial, sans-serif; }
+li { list-style-type: none;  }
+/*搴曢儴鑿滃崟鎸夐挳鏍峰紡瑕嗙洊*/
+
+.mui-bar-tab .mui-tab-item .mui-icon{ top: 4px;  width: 30px;  height: 30px;}
+.mui-bar-tab .mui-tab-item .mui-icon~.mui-tab-label{ font-size: 12px}
+.mui-bar .mui-icon {font-size: 26px}
+
+
+.mui-bar-tab .mui-tab-item{ position: relative}
+.mui-slider-indicator{bottom: 35px;}
+.nav-footer .mui-tab-label{ position: absolute; font-size: 12px; height: 18px; width: 32px; line-height: 18px; display: block; left: 50%; margin-left: -16px; bottom: 0}
+
+
+/*鏍囬鏍峰紡瑕嗙洊*/
+.cor-content .mui-bar{  height: 50px; margin-top: -1px; }
+.y-search-index{
+    height: 65px!important;
+}
+/*瑕嗙洊鑳屾櫙棰滆壊*/
+.cor-content .mui-content{ background: #fff; padding-bottom: 40px}
+/*瑕嗙洊椤堕儴鏍囬楂樺害*/
+.cor-content .mui-bar .mui-title{  height: 50px;  line-height: 50px; color: #121212;  }
+.cor-content .mui-bar-nav~.mui-content{  padding-top: 50px;  }
+/*zy*/.cor-content .mui-segmented-control .mui-control-item{  line-height: 48px; color: #121212;  margin: 0 20px;height: 50px; padding: 0 8px;position: relative   }
+.cor-content .mui-bar .mui-segmented-control{  top:0; margin: 0 auto; }
+/*zy*/.cor-content .mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{  color: #121212;border-bottom: none;  }
+/*zy*/.cor-content .mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active:after{ content: '';
+          position: absolute;
+          width: 30px;
+          height: 3px;
+          background: #ffd321;
+          bottom: 6px;
+          left: 41%;}
+.cor-content .mui-table-view:after{  background-color: #eee;  }
+.cor-content .mui-bar-nav~.mui-content {
+ padding-top: 50px; padding-bottom: 50px;
+}
+
+/*------------------ 鍒嗙被鏍峰紡鏃ユ洿------------------ */
+.classify-list {  position: relative;  margin: 0 auto;  background: #ffffff }
+.classify-listDown {  position: relative;  }
+
+.classify-list .classify-pullDown {  position: absolute;  right: -10px;  width: 40px;  height: 40px;  top: -4px;  color: #fff;  }
+.classify-list .mui-bar-nav.mui-bar .mui-icon{  padding-top: 8px; padding-bottom: 8px;  }
+.classify-listDown .classify-pullDown {  position: absolute;  right: 0px;  width: 40px;  height: 40px;  bottom: 8px;  color: #fff;  }
+.classify-listDown .classify-scroll {padding-left: 10px;  }
+.classify-listDown .mui-slider-indicator {  text-align: start;  }
+.classify-listDown .mui-slider-indicator.mui-segmented-control{  top: 0;  }
+
+/*鍒嗙被鍒楄〃*/
+/*zy*/.mui-bar .classify-list .mui-segmented-control {    width: 100%;   background: #fff; text-align: left;padding: 12px 4%;  }
+/*zy*/.mui-segmented-control.mui-segmented-control-inverted .classify-listLi.active {   }
+/*zy*/.mui-segmented-control.mui-segmented-control-inverted .classify-listLi {  position: relative; color: #000000;    display: inline-block;   line-height: 25px; width: 13.2%;  overflow: hidden;
+ -webkit-transition: background-color .1s linear;  transition: background-color .1s linear;  text-align: center;    text-overflow: ellipsis;
+}
+/*zy*/.classify-listLi.active:after {  content:"";  position: absolute;  top:0;  left:0;  width: 95%;  height: 20px;  border:1px solid #4f4e4e; border-radius: 20px; }
+
+
+
+/*------------------ table鏍峰紡------------------ */
+.w-bookName {  font-size: 14px;  color: #555;  margin-top: 2px; font-weight: 600  }
+.w-shelfBooklist ul li .w-bookName { text-align: center;  margin-top: 6px;    width: 100%;  white-space: nowrap;  text-overflow: ellipsis;  overflow: hidden;  }
+.w-historyTime {  font-size: 14px;  color: #8A8A8A;  font-weight: 300;  letter-spacing: 1px;  padding: 10px 15px 11px;  }
+.mui-table-view .w-bookPic {  line-height: 42px;   height: 85px; width: 65px;  border-radius: 3px;  margin-right: 15px;  }
+.w-bookTag {  font-size: 11px;  color: #888;  margin: 3px auto 15px;  }
+.w-bookTag span {  margin-right: 8px;  letter-spacing: 1px;  }
+.w-bookChapter {  font-size: 12px;  color: #8A8A8A;   }
+.w-bookContinue { border-radius: 15px;  padding: 0 8px;  font-size: 12px;  position: absolute;  top: 35%;  right: 0px;  }
+.mui-table-view.w-historyList {  margin-bottom: 11px;  }
+.mui-table-view.w-historyList:after {  bottom: -11px;  }
+.mui-table-view.w-historyList:before {  content: none;  }
+.w-historyList .mui-table-view-cell:after {  content: none;  }
+.w-historyList .mui-table-view-cell {  margin: 0 15px 20px;  padding: 0;  }
+.w-historyList .mui-table-view-cell>a:not(.mui-btn) {  margin: 0;  padding: 0;  transition: 0.3s all;  }
+.w-historyList .mui-table-view-cell>a {  margin: 0;  padding: 0;  }
+
+/*鐚滀綘鍠滄*/
+.replace-title {  line-height: 25px;  padding: 35px 15px 0 15px;  overflow: hidden; width: 100%;}
+.replace-title:first-child{  border: none;  }
+.replace-title .replace-titleText {  font-size: 14px;  color: #121212;  float: left; font-weight: bold  }
+.replace-title .replace-titleIcon {  color: #b0b0b0;  float: right; font-size: 13px;  }
+.replace-title .replace-titleIcon i {  font-size: 18px;  }
+.replace-title .replace-titleIcon .icon-refresh{
+ width: 20px;
+ height: 20px;
+ display: inline-block;
+ vertical-align: top;
+ background-position: -62px 1px;
+ background-size: 170px;
+ margin-top: 4px;
+}
+.replace-content .mui-table-view:before{ height: 0}
+#y-replaceText{
+    margin: 0 auto;
+    color: #8A8A8A;
+    padding: 10px 0px;
+}
+
+.replace-hot{ margin-top: 8px}
+.replace-hot .mui-table-view:before ,.search-hot .mui-table-view:after{  height: 0;  }
+.replace-img {  width: 100%;   text-align: center;  margin-bottom: 5px;  overflow: hidden;  }
+.replace-img img {  height: 5.85rem;  width: 4.5rem;border-radius: 6px;   }
+.replace-text {  text-align: center;  font-size: 14px;  color: #555;font-weight: bold   }
+.replace-hot .mui-table-view.mui-grid-view .mui-table-view-cell {  padding: 0 0 0 14px;  }
+.replac-hot .mui-table-view:before ,.replac-hot .mui-table-view:after ,.replace-content .mui-table-view:after{ height: 0}
+
+.w-shelfBooklist ul {
+ padding: 0;
+ margin: 0;
+ overflow: hidden;
+ margin-bottom: 20px;
+}
+.w-shelfBooklist ul li {  width: 31%;  margin: 0 3.5% 18px 0;  float: left;  }
+.w-shelfBooklist ul li:nth-child(3n){  margin-right: -2.5%;  }
+.w-shelfBooklist ul li .w-bookPic {  overflow: hidden;  position: relative; height: 6.2rem  }
+/*zy*/.w-shelfBooklist ul li .w-bookPic img {  width: 100%;  height:6.2rem;  border-radius: 2px;  background: #ccc;  }
+.w-shelfBooklist ul li .w-bookPic img {  background: rgba(0,0,0,0.2);  }
+/*鎼滅储妗�*/
+.search-div { padding: 3px; line-height: 37px;  overflow: hidden; background: #ffffff; border-radius: 50px; margin-top: 8px ; border: 2px solid #c7c7c7;}
+.search-div .search-input {  float: left;  line-height: 40px;  width: 80%; display: inline-flex }
+.search-div .search-btn { border-radius: 50px; padding: 0 15px; background-color: #ffe900;  float: right;  color: #2a2a2a;  font-size: 15px;  font-weight: bold; }
+.search-input input[type=search] {  padding-left: 10px;  border-radius: 20px;  margin: 3px 0 0 17px;  height: 34px;  color: #313131;  text-align: left }
+.search-input.mui-input-row .mui-input-clear~.mui-icon-clear {  top: 0px; right: 0px;    }
+.search-div .search-input input::-webkit-input-placeholder {  color: #c7c7c7;  font-size: 14px;  font-weight: 300;  text-align: left;  }
+.search-div .search-input input:-moz-placeholder {  color: #c7c7c7;  font-size: 14px;  font-weight: 300;  text-align: left;  }
+.search-div .search-input input::-moz-placeholder {  color: #c7c7c7;  font-size: 14px;  font-weight: 300;  text-align: left;  }
+.search-div .search-input input:-ms-input-placeholder {  color: #c7c7c7;  font-size: 14px;  font-weight: 300;  text-align: left;  }
+.y-search-img{ height: 20px;  width: 20px; opacity: 0.6;  background-position: -150px -248px; margin-top: 11px; margin-left: 15px;  vertical-align: top;  display: inline-flex;background-size: 170px;   background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/icon.png); }
+.y-search-index{
+    background-color: #f2f2f2;
+}
+.y-search-img{
+    position: relative;
+}
+.y-search-img::after{
+    content: " ";
+    border-right: 2px solid #c7c7c7;
+    height: 14px;
+    right: -16px;
+    top: 2px;
+    background-color: #c4c3c3;
+    position: absolute;
+}
+/*------------鑷姩琛ュ叏div鏍峰紡------------*/
+
+.bigautocomplete-layout {  display: none;  background-color: #FFFFFF;  position: absolute;  z-index: 100;  overflow-x: hidden;  overflow-y: auto;  padding-top: 10px;  }
+.bigautocomplete-layout table {  border-collapse: collapse;  border-spacing: 0;  background: none repeat scroll 0 0 #FFFFFF;  width: 100%;  cursor: default;  }
+.bigautocomplete-layout table tr {  background: none repeat scroll 0 0 #FFFFFF;  border-bottom: 1px solid #ededed;  }
+.bigautocomplete-layout .ct {  background: none repeat scroll 0 0 #eee !important;  }
+.bigautocomplete-layout div {  word-wrap: break-word;  word-break: break-all;  padding: 8px 15px;  color: #888;  font-size: 16px;  font-weight: 300;  }
+
+
+/*璇濋鏍峰紡*/
+.community-body-content {  width: 100%;  height: auto;  overflow: hidden; padding-top: 50px  }
+.community-header{ position: fixed; width: 100%;z-index: 19}
+/*---------鎺ㄨ崘-鏈€鏂板垪琛� 寮€濮�---------*/
+.community-recommend-dl {  width: 100%;  height: auto;  overflow: hidden;  margin: 0;  background-color: #eeeeee;  }
+.community-recommend-dd {  width: 100%;  background-color: #ffffff;  margin: 0 auto;  padding: 15px;  border-bottom: 5px solid #f2f1f1; position: relative  }
+.community-recommend-dd:first-child {  margin: 0;  }
+.community-recommend-header {  overflow: hidden;  }
+
+/*浣滆€呭ご鍍�*/
+.community-headportrait {  float: left;  width: 35px;  height: 35px;  border-radius: 50%;  }
+/*浣滆€呮樀绉�*/
+.community-rightauthor {  float: left;  padding: 7px 0 0 10px;  font-size: 14px;  color: #999;  }
+.community-recommend-body {  overflow: hidden;  padding:15px 0;  }
+.community-list-link {  display: block;  }
+/*鏍囬*/
+.community-recommend-title {  color: #515151;  font-size: 15px;  }
+.community-recommend-topic {  color: #009efb;  padding-right: 5px;  }
+/*鍐呭*/
+.community-recommend-content {  padding-top: 8px;  color: #777777;  font-size: 14px;  line-height: 24px;  }
+.colorf6{  color: #e40101;  }
+
+
+/*瑕嗙洊鍘熸牱寮�*/
+.community-recommend-img .mui-table-view:before, .community-recommend-img .mui-table-view:after {  content: none;  }
+.community-recommend-img .mui-table-view.mui-grid-view {  padding: 0;  width: 15.5rem;  margin-top: .3rem;  }
+.community-recommend-img .mui-table-view.mui-grid-view .mui-table-view-cell {  padding: 0px;  margin: 0 0.1rem 0.1rem 0;  height: 4.75rem;  width: 4.75rem;  }
+
+.community-recommend-footer {  width: 100%;  height: auto;  overflow: hidden;  }
+
+/*鏃堕棿*/
+.community-recommend-time {  float: left;  width: 60%;  color: #999999;  font-size: 12px;  }
+
+/*鐐硅禐--璇勮*/
+.community-recommend-fabulous, .community-recommend-comment {  float: left;  width: 20%;  text-align: end;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  }
+.community-recommend-fabulous i, .community-recommend-comment i {  color: #888888;  font-size: 12px;  }
+.community-recommend-fabulous span, .community-recommend-comment span {  padding-left: 3px;  color: #999999;  font-size: 12px;  }
+.community-recommend-fabulous .icon-thumb{  width: 20px;  height: 20px;   display: inline-block;  vertical-align: top;  background-position: -72px -136px; background-size: 110px;  }
+.community-recommend-fabulous.is-active .icon-thumb{  width: 20px;  height: 20px;   display: inline-block;  vertical-align: top;  background-position: -72px -154px; background-size: 110px;  }
+.community-recommend-comment .icon-comment{  width: 20px;  height: 20px;   display: inline-block;  vertical-align: top;  background-position: -158px -230px; background-size: 180px;  }
+
+/*鏀惧ぇ鍒囨崲鐩稿唽*/
+.mui-preview-image.mui-fullscreen {  position: fixed;  z-index: 20;  background-color: #000;  }
+.mui-preview-header, .mui-preview-footer {  position: absolute;  width: 100%;  left: 0;  z-index: 10;  }
+.mui-preview-header {  height: 44px;  top: 0;  }
+.mui-preview-footer {  height: 50px;  bottom: 0px;  }
+.mui-preview-header .mui-preview-indicator {  display: block;  line-height: 25px;  color: #fff;  text-align: center;  margin: 15px auto;  width: 100%;  background-color: rgba(0, 0, 0, 0.4);  border-radius: 12px;  font-size: 16px;  }
+.mui-preview-image {  display: none;  -webkit-animation-duration: 0.5s;  animation-duration: 0.5s;  -webkit-animation-fill-mode: both;  animation-fill-mode: both;  }
+.mui-preview-image.mui-preview-in {  -webkit-animation-name: fadeIn;  animation-name: fadeIn;  }
+.mui-preview-image.mui-preview-out {  background: none;  -webkit-animation-name: fadeOut;  animation-name: fadeOut;  }
+.mui-preview-image.mui-preview-out .mui-preview-header, .mui-preview-image.mui-preview-out .mui-preview-footer {  display: none;  }
+.mui-zoom-scroller {  position: absolute;  display: -webkit-box;  display: -webkit-flex;  display: flex;  -webkit-box-align: center;  -webkit-align-items: center;  align-items: center;  -webkit-box-pack: center;
+ -webkit-justify-content: center;  justify-content: center;  left: 0;  right: 0;  bottom: 0;  top: 0;  width: 100%;  height: 100%;  margin: 0;  -webkit-backface-visibility: hidden;
+}
+.mui-zoom {  -webkit-transform-style: preserve-3d;  transform-style: preserve-3d;  }
+.mui-slider .mui-slider-group .mui-slider-item img {  width: auto;  height: auto;  max-width: 100%;  max-height: 100%;  }
+.mui-android-4-1 .mui-slider .mui-slider-group .mui-slider-item img {  width: 100%;  }
+
+.mui-slider .mui-slider-group .mui-slider-item .special-image{ padding-right: 10px;}
+.mui-android-4-1 .mui-slider.mui-preview-image .mui-slider-group .mui-slider-item {  display: inline-table;  }
+.mui-android-4-1 .mui-slider.mui-preview-image .mui-zoom-scroller img {  display: table-cell;  vertical-align: middle;  }
+.mui-preview-loading {  position: absolute;  width: 100%;  height: 100%;  top: 0;  left: 0;  display: none;  }
+.mui-preview-loading.mui-active {  display: block;  }
+.mui-preview-loading .mui-spinner-white {  position: absolute;  top: 50%;  left: 50%;  margin-left: -25px;  margin-top: -25px;  height: 50px;  width: 50px;  }
+.mui-preview-image img.mui-transitioning {  -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;  transition: transform 0.5s ease, opacity 0.5s ease;  }
+@-webkit-keyframes fadeIn {
+ 0% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+ }
+}
+@keyframes fadeIn {
+ 0% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+ }
+}
+@-webkit-keyframes fadeOut {
+ 0% {
+  opacity: 1;
+ }
+ 100% {
+  opacity: 0;
+ }
+}
+@keyframes fadeOut {
+ 0% {
+  opacity: 1;
+ }
+ 100% {
+  opacity: 0;
+ }
+}
+p img {  max-width: 100%;  height: auto;  }
+
+#area{position: absolute; z-index: 1; width: 100%}
+#bg_layer {
+ background: #fff;
+ width: 100%;
+ height:100%;
+ position: fixed;  bottom: 0;
+ color: #666;
+ font-size: 12px;
+ text-align: center;
+ padding-top: 10px;
+}
+.community-detail-content {  padding: 6px 15px 20px 15px;  background-color: #ffffff;  border-bottom: 5px solid #f2f1f1;  }
+.community-detail-comment {  margin: .3rem auto;  overflow: hidden;  background-color: #ffffff;  width: 100%;}
+.community-detail-comment-title {  padding: 5px 15px; height: 40px;line-height: 25px;  color: #666;  font-size: 14px;   position: relative }
+.community-detail-comment-title .mod-commentLink{ float: right; width: 60px; text-align: center; height: 25px; line-height: 25px; background: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/commentBtn.png) no-repeat; background-size: 16px; background-position: right;  /*border-radius: 20px;  color: #fff; font-size: 13px;*/}
+
+.community-detail-comment-title span {  padding: 0;  color: #888;font-size: 12px;  }
+.community-detail-comment-dl {  margin: .3rem auto;  }
+.community-detail-comment-dd {  width: 100%;  height: auto;  overflow: hidden;  margin: 0;  display: -webkit-box;  display: -webkit-flex;  display: -ms-flexbox;  display: flex;  padding: 6px 15px;  }
+.community-detail-comment-dd:last-child {  border-bottom: none;  }
+.cdc-img {  float: left;  margin-right: 13px;  }
+/*璇勮浜哄ご鍍�*/
+.cdc-img img {  width: 35px;  height: 35px;  border-radius: 50%;  }
+.cdc-right {  -webkit-box-flex: 1;  -webkit-flex: 1;  -ms-flex: 1;  flex: 1;  }
+.cdc-author {  }
+.cdc-author-left {  float: left;  }
+/*璇勮浜烘樀绉�*/
+.cdc-author-name {  color: #999;  font-size: 12px;  }
+/*璇勮鏃堕棿*/
+.cdc-author-time {  color: #999;  font-size: 12px;  }
+.cdc-author-time span {  color: #999999;  padding-right: 6px;  }
+/*璇勮 璧�*/
+.cdc-author-right {  float: right;  color: #999999;  font-size: 12px;  padding-top: 5px }
+.cdc-author-right .icon-thumb {  width: 20px;  height: 20px;   display: inline-block;  vertical-align: top;  background-position: -78px -151px; background-size: 120px; margin-left: 5px;  margin-top: -2px }
+.cdc-author-right.is-active .icon-thumb {  width: 20px;  height: 20px;   display: inline-block;  vertical-align: top;  background-position: -78px -170px; background-size: 120px; margin-left: 3px; margin-top: -2px }
+.cdc-author-right.is-active .support_count{ color: #f5a623}
+
+.cdc-content {  padding: 8px 0;  color: #333333;  font-size: 14px;  line-height: 24px;  overflow: hidden;  width: 100%;  }
+/*璇勮鐨勫洖澶�*/
+.cdc-content-reply {  padding: 8px 10px;  -webkit-border-radius: 2px;  -moz-border-radius: 2px;  border-radius: 2px;  background-color: #f9f9f9;  margin-bottom: 10px;  }
+.cdc-reply-dl {  margin: 0;  color: #444444;  }
+.cdc-reply-author {  display: inline-block;  color: #999;  font-size: 14px;  }
+.cdc-reply-author span.authorname ,.cdc-reply-author span.cdc-author-name  {  color: #74BEE2; font-size: 12px  }
+.cdc-reply-dl dd span:last-child:after {  content: ":";  padding: 0 .3rem 0 .1rem;  color: #777777;  }
+.cdc-reply-dd .cdc-content, .cdc-reply-other-dd .cdc-content {  width: auto;  padding: 0;  display: initial;  }
+.cdc-reply-dd, .cdc-reply-other-dd {  margin: 0;  width: 100%;  font-size: .6rem;  padding: 3px 0;  }
+.cdc-reply-other-dd {  display: none;  }
+/*鍓╀綑璇勮灞曞紑*/
+.cdc-open {  margin: 5px auto;  color: #FAA500;  font-size: 12px;  text-align: center;  }
+.cdc-open-2 {  display: none;  }
+/*搴曢儴娴姩妗�*/
+/*璇勮*/
+.comment-footer{ min-height: 55px;display:block; width: 100%; position: fixed; bottom: 0; z-index: 2222; background: #fff;    -webkit-box-shadow: -1px 2px 2px #999999, 1px 1px 7px #999999;
+ box-shadow: -1px 2px 2px #999999, 1px 1px 7px #999999;}
+.comment-footer .send{padding:10px 0; width: 100%; height: 60px; display: flex; justify-content: space-between }
+.comment-footer .send textarea{width: 61%; padding: 0; margin: 0; border-radius:5px;  line-height: 38px; font-size: 15px; background: #f4f4f4; border: none; text-indent: 10px; }
+.comment-footer .send a.btn{ width:50px; height: 40px; line-height: 40px; text-align: center; display: block;color: #fff;background: #ff6f6f;border-radius: 3px;text-decoration: none;font-size: 14px;font-weight: bold; margin-right: 10px}
+.comment-footer .send .faces{width: 30px;height:30px;display: block;background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/faces.png) ;background-position: 0 0; margin-top:4px; margin-left: 10px;}
+.comment-footer .send .on{background-position: left bottom; transition: 0.3s all; margin-top: 4px}
+.comment-footer .face{;display: none; width: 96%; margin: 0 auto; padding-top: 5px; height: 175px; overflow: scroll}
+.comment-footer .face li{width: 10%; text-align:center; height: 35px; line-height:35px;float: left;}
+
+.comment-footer .comment-pull-text{ width: 92%; margin: 10px auto; height: 35px; line-height: 35px; text-align: center; background: #f4f4f4; font-size: 14px; color: #666; border-radius: 30px }
+
+
+/*娴姩妗�*/
+/*璇勮鏍峰紡2*/
+.comment-mod{ display:block; width: 100%;  z-index: 2222; background: #fff;  position: fixed;
+ top:0; bottom: 0  }
+.comment-mod .send{padding:10px 0; width: 100%; justify-content: space-between }
+.comment-mod .send textarea{width: 92%; padding: 0; margin: 10px 4% 0 4%; border-radius:5px;  line-height: 38px; font-size: 15px; background: #f4f4f4; border: none;     padding-left: 10px; }
+.comment-mod .send span.btn{ width:50px; height: 30px; line-height: 30px; float: right; text-align: center; display: block;color: #fff;border-radius: 3px;text-decoration: none;font-size: 14px;font-weight: bold; }
+
+.comment-mod .send .faces{width: 30px;height:30px;display: block;background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/faces.png) ;background-position: 0 0; margin-top:4px; margin-left: 15px; float: left}
+.comment-mod .send .on{background-position: left bottom; transition: 0.3s all; margin-top: 4px}
+.comment-mod .send .comment-footer-btn{ height: 30px; line-height: 30px; margin:0 auto; width: 92%; text-align: center; font-size: 15px;}
+.comment-mod .send .comment-footer-btn .comment-cancel{ width: 50px; height: 30px; line-height: 30px; border: 1px solid #ddd; border-radius: 3px; display: block; float: left; text-align: center; color: #888;font-size: 14px; }
+.comment-mod .face{;display: none; width: 96%; margin: 0 auto; padding-top: 5px; height: 175px; overflow: scroll}
+.comment-mod .face li{width: 10%; text-align:center; height: 35px; line-height:35px;float: left;}
+/*澶撮儴鍒囨崲瀵艰埅*/
+.community-tab {  width: 100%;  line-height: 50px;  text-align: center;  background-color: #fe6f6f;  }
+.community-tab a {  display: inline-block;  margin: 0 .2rem;  padding: 0 .5rem;  color: rgba(255, 255, 255, .7);  font-size: 16px;  height: inherit;  box-sizing: border-box;  }
+.community-tab .community-active {  color: #ffffff;  border-bottom: 3px solid #ffffff;  }
+
+.comment-notice{ font-size: 14px; color: #999}
+.mui-checkbox input[type=checkbox]:before {
+ position: absolute;
+ bottom: 5px;
+ right: 5px;
+}
+.mui-checkbox.w-checkbox1 input[type=checkbox]:before ,.mui-checkbox.w-checkbox2 input[type=checkbox]:before ,.mui-checkbox.com-checkbox3 input[type=checkbox]:before {
+ font-size: 24px;
+ position: absolute;  bottom: 5px;  right: 5px;
+}
+.w-operation1,.w-operation2,.com-operation3 {  height: 60px;  background: #eef0ef;  width: 100%;  position: fixed;  bottom: 0;  left: 0;  z-index: 100;  display: none;  }
+
+/*娌℃湁淇℃伅鎻愮ず*/
+.no-info{ width: 100%; text-align: center; padding-top: 30%}
+.no-info img{ width: 45%;}
+
+
+/*涓撻*/
+.special-list{ padding: 0; margin: 0; background: #fff}
+.special-list li{ width: 100%; margin-bottom: 8px;}
+.special-list li img{ width: 100%; height: auto}
+
+.special-view{ width: 100%; margin: 0 auto; overflow: hidden; background: #000}
+.special-view .special-body-banner{ width: 100%; height: auto; line-height: 5px;  }
+.special-view .special-body-banner img ,.special-footer img{ width: 100%}
+.special-view .special-body-banner h2{ font-size: 14px; color: #fff ;font-weight: normal; line-height: 24px; padding: 0 15px}
+.special-view .special-container-list{ margin: 0; padding: 15px 0 0 0}
+.special-footer{ line-height: 5px;}
+
+.special-view .special-container-list li .special-img{ border-radius: .4rem; width: 100%}
+.special-view .special-container-list li{     padding:15px 10px;  background: #fff;  margin: 10px;  border-radius: 0.4rem; }
+.special-view .special-container-list li:last-child{margin-bottom: 0}
+.special-view .special-container-list .body-contents-book a{   background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/collect_zt.png);  background-repeat: no-repeat;  background-size: auto 33px;  height: 33px;  width: 84px;  text-indent: -9999px;}
+.contents-book-text{ width: 70%}
+.contents-book-text h3{display: -webkit-box; font-size: 16px; color: #121212; font-weight:600; margin-top: 0;
+ overflow: hidden;
+ white-space: normal!important;
+ text-overflow: ellipsis;
+ word-wrap: break-word;
+ -webkit-line-clamp: 1;
+ -webkit-box-orient: vertical;
+ max-width: 100%;}
+.contents-book-text p{ font-size: 13px; overflow: hidden; margin: 0; line-height: 25px; color: #666}
+.body-contents-book{ margin: 10px 0 0 0;overflow: hidden}
+.book-text-line img{ width: 100%}
+.body-contents-book .grimace-host{width: 16px;height: 16px;float: left;margin-right: 5px; margin-left: -5px;margin-top: 3px;}
+.special-container-list h4{ width: 100%; font-size: 14px; color: #999; font-weight: normal; line-height: 24px; }
+.body-contents-img{ position: relative;}
+.book-text-line{ line-height: 1px;margin-top: 2px;}
+.body-contents-img a{ position: absolute; bottom: 18px; right: 15px; display: block;color: #fff;width: 60px;text-align: center; height: 32px; line-height: 32px; font-size: 12px;}
+.body-contents-img a img{width: 14px;  height: 14px;  float: left;  margin-top: 3px;  margin-right: 3px;  }
+.snl-pull-left {  color: #666666; padding-right: 15px;}
+.snl-pull-right span { color: #d50505;}
+.mui-pull-right.snl-btm-img span { margin: 1px 0 0 3px;}
+
+
+/*鍏呭€奸〉寮圭獥*/
+.pay-mask {  position: absolute;  top: 0px;  filter: alpha(opacity=60);  background-color: #000000;  z-index: 99;  left: 0px;  opacity:0.8;  -moz-opacity:0.5;  }
+.pay-mode{ animation:myfirst 0.5s; position: absolute;  z-index: 100;  text-align:center;  display: none;  width: 11rem;  height: 11rem;  background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/pay-double2.png);  background-size: 75%;  background-repeat: no-repeat;  background-position: center center;  }
+@keyframes myfirst { 0%  { top: 100%; }  100% { top: 20%; } }
+.pay-close{  width: 1.5rem;  height: 1.5rem;  background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/pay-close.png);  background-size: 100%;  background-repeat: no-repeat;  background-position: center center;  position: absolute;  top: 10%;  left: 85%;  }
+.pay-index{  width: 100%;  height: 100%;  display: block;  }
+
+
+/*绔犺妭鏈熬椤甸潰*/
+.y-readend-container{  font-size: .5rem;  background-color:#fff; width: 100%;}
+.y-end-toup{ display: flex; flex-wrap: wrap;}
+.y-end-touptime{ color: #757373; width: 100%; background-color: rgba(230, 230, 230, 0.2); padding: 10px 0px;  text-align: center;}
+.y-end-toupimg ,.y-end-toupdate{ margin: 0 auto; padding-bottom:10px; text-align: center;}
+.y-end-toupimg p ,.y-end-toupdate p{ margin-top: 0px; margin-bottom: 5px; color: #757373;}
+.y-end-toupimg a ,.y-end-toupdate a{ text-decoration: none; color: #000000;}
+.y-end-toupimg i{ width:250px; height: 165px;  display: block; background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/toup.png); background-size: 100%; }
+.y-end-toupdate i{ width:250px; height: 165px;  display: block; background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/toupdate.png); background-size: 100%; }
+
+.y-end-toupmenu{ margin:0 15px; width: 100%; display: flex; flex-wrap:wrap; line-height: 10px;}
+.y-end-toupmenu a{ color: #121212; display:block; background-color: #fde23d; border-radius: 20px; margin: 20px auto; padding: 13px 30px;}
+
+
+
+/*骞磋垂VIP鐗规潈璇存槑*/
+.y-vip-top{ background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/yearvip-top.png); height: 160px; width: 100%; background-size: 58%; background-repeat: no-repeat; background-position: center 30px}
+.y-vip-mian{
+    padding: 0px 5px 0px 0px; margin: 0;
+    background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/yearvip-bg.png);background-repeat: repeat-x; background-position: top ;
+}
+.y-vip-mian h1{ margin: 0; padding: 0}
+.y-vip-mian li{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    padding-left: 20px;
+    width: 100%;
+    position: relative;
+}
+.y-vip-mian li:after{ content: ''; left: 110px;  height: 1px; background: #e5e5e5; right: 0; position: absolute; bottom: -7px; }
+.y-vip-mian li:last-child:after{height: 0}
+.y-vip-title{
+    width: 76%;
+    padding-left: 20px;
+}
+.y-vip-title span{
+    padding-bottom: 5px;
+    display: block;
+    font-size: 16px;
+    color: #c87b04;
+    font-weight: bold;
+}
+.y-vip-img{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/vip-img.png) no-repeat;
+    background-position: -9px -14px;
+    background-size: 90px;
+}
+#y-vip-img1{ background-position: -9px -102px; }
+#y-vip-img2{ height:91px; background-position: -9px -189px; }
+#y-vip-img3{ background-position: -9px -287px; }
+#y-vip-img4{ background-position: -9px -369px; }
+.y-vip-paymenu{
+    text-align: center;
+    padding: 15px 50px;
+    background-color: #ea930d;
+    margin: 0 25px 25px 25px;
+    border-radius: 10px;
+}
+.y-vip-paymenu a{
+    color: #fff;
+}
+.y-replace-img{
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+.y-replace-img i{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/replace-img.png) no-repeat;
+    background-size: 100%;
+    display: block;
+}
+.community-detail-return{
+    color: #333;
+    position: absolute;
+    right: 3%;
+    font-style: normal;
+    text-align: center;
+}
+.community-detail-return a{
+    color: #333;
+}
+.y-mui-slider-item img{
+    height: 100%;
+    width: 100%;
+    padding-right: 20px;
+}
+
+
+
+/*
+    @author:
+ */
+
+/*
+    浣滅敤锛�
+ */
+
+/* 6-20 zy*/
+.mui-segmented-control.mui-segmented-control-inverted .classify-listLi{font-size: 13px; color: #666; line-height: 28px;}
+.w-bookName{ color: #121212; font-weight: 400}
+.classify-listLi.active:after{ top: 3px; border: 1px solid #f9b403;}
+.mui-segmented-control.mui-segmented-control-inverted .classify-listLi.active{ color: #f9b403}
+.replace-text{color: #121212; font-weight: 400}
+.mui-slider-indicator{ bottom: 10px;}
+
+
+/*濂藉弸璧犻€侀噾甯佸脊绐�*/
+.y-friends-gold{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2223;
+    display: none;
+    justify-content: center;
+}
+.y-friends-goldbg{
+    justify-content: center;
+    width: 80%;
+    height: 70%;
+    background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/y-friends-goldbg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    text-align: center;
+    top: 10%;
+    transform: scale3d( 0, 0, 0 );
+    transition: all 0.2s;
+    opacity: 0.2;
+    display: flex;
+}
+.y-friends-active{
+    display: flex;
+}
+.y-friends-active2{
+    opacity: 1!important;
+    transition: all 0.2s!important;
+    transform: scale3d( 1, 1, 1 )!important;
+}
+.y-friends-text{
+    margin-top: 52%;
+}
+.y-friends-text p{
+    font-size: .7rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.y-friends-text p:nth-child(1){
+    color: #fdfa6e;
+    margin-bottom: 24px;
+}
+.y-friends-text p:nth-child(1) span{
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.y-friends-text p:nth-child(2){
+    color: #ffffff;
+}
+.y-friends-text p:nth-child(2) span{
+    font-size: 2.3rem;
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: .5rem;
+}
+.y-friends-button{
+    position: absolute;
+    padding: 10px 0;
+    bottom: 0;
+    width:43%;
+    font-size: .7rem;
+    font-weight: bold;
+    background-color: #fbda30;
+    border-radius: 30px;
+    left: 30%;
+}
+.y-friends-button a{
+    color: #6e0c0c;
+}
+.y-close-friends{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: -60px;
+    background: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/sign/closeBtn.png) no-repeat center;
+    background-size: 100%;
+    left: 45%;
+}
+
+/*濂藉弸閭€璇烽〉*/
+.y-invitation-top img{
+    width: 100%;
+}
+.y-invitation-main{
+    position: relative;
+}
+.y-invitation-main img:nth-child(1){
+    width: 100%;
+}
+#y-invitation-bg2 {
+    width: 145px;
+    height: 145px;
+    position: absolute;
+    bottom: 23px;
+    right: 16px;
+    border: 7px solid #ffffff;
+    border-radius: 12px;
+}
+@media screen and ( max-width:350px) {
+    #y-invitation-bg2{
+        width: 125px;
+        height: 125px;
+        position: absolute;
+        bottom: 20px;
+        right: 13px;
+        border: 7px solid #ffffff;
+        border-radius: 12px;
+    }
+}
+.y-invitation-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.y-invitation-bottom ul{
+    margin: 5px 0 0 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.y-invitation-bottom ul li{
+    padding: 0 12px;
+}
+.y-invitation-bottom ul li:nth-child(1){
+    border-right: 1px solid #000000;
+}
+.y-invitation-bottom ul li:nth-child(2){
+    border-right: 1px solid #000000;
+}
+.y-invitation-bottom p{
+    color: #000000;
+    font-size: .7rem;
+    margin: 0;
+    padding: 0;
+}
+.y-invitation-bottom p:nth-child(1){
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+.y-invitation-bottom p:nth-child(2){
+    color: #ffdf92;
+    font-size: .5rem;
+    font-weight: 600;
+}
+.y-invitation-bottom p:nth-child(2) span{
+    font-size: .8rem;
+}
+.y-invitation-bottom{
+    margin-bottom: 60px;
+    width: 100%;
+    height: 85px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/y-task-bottom.png);
+}
+
+/*娲诲姩寮圭獥*/
+.y-activity-window{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 500;
+    text-align: center;
+    visibility: hidden;
+}
+.l-activity-bg{
+    visibility: visible !important;
+}
+.y-activity-box .l-model-close{
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    background: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/sign/closeBtn.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.y-activity-box{
+    display: flex;
+    justify-content: center;
+}
+.y-activity-box a{
+    display: block;
+    width: 100%;
+}
+.y-activity-box a img{
+    width: 100%;
+}
+.y-record-list ul{
+    padding-top: 50px;
+}
+.y-tuhao-go-back2{
+    position: fixed;
+    top: 25px;
+    left: 0;
+}
+.y-tuhao-go-back2 i{
+    width: 32px;
+    height: 32px;
+    display: block;
+    background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/y-tuhao-go-back2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+/*杩斿洖椤堕儴*/
+/*zy*/#roll_top{ width: 40px; height: 40px; position: fixed; bottom: 0px; right: 20px; z-index: 2;background-color:rgba(255, 255, 255, 0);}
+.y-index-toTop{  background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/gotoup.png);  background-size: 40px; position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));margin-bottom:80px;}
+
+/*zy*/#roll_top img{ width: 100%}
+
+.y-detail-header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.y-detail-header span{
+    width: 70%;
+    color: #ffffff;
+    line-height: 50px;
+    font-size: 17px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/*杩斿洖寮瑰嚭鑿滃崟*/
+.s-recommend-book {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    opacity: 0;
+    visibility: hidden;
+}
+.s-recommend-book .s-book-main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-200%,-50%);
+    width: 85%;
+    background-color: #fff;
+    border-radius: 15px;
+    opacity: 0;
+    transition: transform 0.15s;
+}
+.s-main-top .s-top-left {
+    position: relative;
+    float: left;
+    background-color: #fde23d;
+    padding: 10px 2rem 10px 3rem;
+    font-size: 0.65rem;
+    font-weight: bold;
+    color: #2a2929;
+    border-bottom-right-radius: 50px 43px;
+    border-top-left-radius: 15px;
+}
+.s-top-right {
+    float: right;
+    font-size: 35px;
+    position: relative;
+    right: 15px;
+    top: 10px;
+    color: #666666;
+}
+.s-top-left img {
+    height: 2.8rem;
+}
+.s-main-top .s-top-left img {
+    position: absolute;
+    left: -5px;
+    bottom: 0;
+    width: 3.1rem;
+}
+.s-recommend-book, .s-book-main > a {
+    display: block;
+    text-align: center;
+    padding: .2rem 0 0.6rem;
+    border-bottom-right-radius: 20px;
+    font-size: 0.65rem;
+    color: #737373;
+}
+aside {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.s-recommend-animate {
+    opacity: 1;
+    visibility: visible;
+
+}
+.s-recommend-animate .s-book-main {
+    opacity: 1;
+    transform: translate(-50%,-50%) !important;
+}
+.y-readbuy-main-box{
+    width: 100%;
+    height: 100%;
+    padding: .8rem .5rem 1.5rem .5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.y-readbuy-bottom {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.y-readbuy-main-box .home-card-2:nth-child(even){
+    margin-left: 2%;
+    padding-bottom: 20px;
+    margin-right: 0!important;
+}
+.s-recommend-book .home-card-2 .mui-control-item{  width: 100%;}
+.s-recommend-book .home-card-2 { padding: 0 0 10px 0; width: 47.5%; float: left; margin-right: 2%;}
+.s-recommend-book .mui-card-footer { text-align: left;}
+.s-recommend-book .home-card-2 img{ width: 100%; border-radius: 5px;}
+.s-recommend-book .mui-card-content {width: 100%; height: 100%;}
+.s-recommend-book .home-footer-title{ font-size: .6rem; color: #1a1a1a; font-weight: bold}
+.s-recommend-book .home-footer-describe{font-size: .5rem; white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;}

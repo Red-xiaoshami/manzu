@@ -1,0 +1,186 @@
+
+/*头部tab切换*/
+.w-shelfTab {  width: 100%;  height: 50px;  position: fixed;  top: 0;  left: 0;  z-index: 10; border-bottom: 1px solid #e5e5e5 ; background: #ffffff }
+.w-shelfCleanUp {  color: #fff;  font-size: 16px;  position: absolute;  right: 15px;  top: 0;  line-height: 50px;  }
+/*zy*/.w-achieve {  display: none; color: #121212}
+/*覆盖table样式*/
+.w-shelfTab .mui-segmented-control .mui-control-item.w-active.mui-active {  border: none;  background: none;  position: relative; color: #121212;font-weight:bold   }
+.w-shelfTab .mui-segmented-control .mui-control-item.w-active .icon-history{ width: 20px; height: 20px;display: inline-block; opacity: 0.6;  vertical-align: top;  background-position: -56px -152px;background-size: 170px; margin-top: 15px; margin-right: 5px; }
+.w-shelfTab .mui-segmented-control .mui-control-item.w-active.mui-active .icon-history{ width: 20px; height: 20px;display: inline-block; opacity: 1;  vertical-align: top;  background-position: -56px -174px;background-size: 170px; margin-top: 15px; margin-right: 5px; }
+.w-shelfTab .mui-segmented-control .mui-control-item.w-active .icon-collect{ width: 20px;  height: 20px;display: inline-block;  vertical-align: top;  opacity: 0.6; background-position: -76px -152px;background-size: 170px; margin-top: 14px; margin-right: 5px; }
+.w-shelfTab .mui-segmented-control .mui-control-item.w-active.mui-active .icon-collect{ width: 20px; height: 20px;display: inline-block;  vertical-align: top;opacity: 1;   background-position: -76px -174px;background-size: 170px; margin-top: 14px; margin-right: 5px; }
+.w-shelfTab .mui-segmented-control .mui-control-item.w-active .icon-update{ width: 20px; height: 20px;display: inline-block;  vertical-align: top;  opacity: 0.6; background-position: -122px -153px;background-size: 170px; margin-top: 14px; margin-right: 5px; }
+.w-shelfTab .mui-segmented-control .mui-control-item.w-active.mui-active .icon-update{ width: 20px; height: 20px;display: inline-block;  vertical-align: top;opacity: 1;   background-position: -122px -174px;background-size: 170px; margin-top: 14px; margin-right: 5px; }
+
+.mui-segmented-control.mui-scroll-wrapper .mui-scroll{width: 100%}
+
+.w-shelfTab .mui-segmented-control .mui-control-item.w-active.mui-active:after {  content: '';  position: absolute;  width: 100%;  height: 3px;  background: #ffd321;  bottom: 6px;  left: 1px;  }
+.w-shelfTab .mui-segmented-control {  border: none;  width: auto;  height: 100%;  margin: 0 auto  }
+.w-shelfTab .mui-segmented-control .mui-control-item {overflow: hidden;  border: none;  color:#212121;  font-size: 16px;  display: inline-block;  width: auto;  margin:0 14px;  line-height: 49px;  }
+
+
+.w-shelfCleanUp .icon-settle{ width: 25px; height: 25px;display: inline-block;  vertical-align: top;   background-position: -116px -179px;background-size: 200px; margin-top: 12px;  }
+.w-achieve .icon-complete{ width: 20px; height: 20px;display: inline-block;  vertical-align: top;opacity: 1;   background-position: -99px -174px;background-size: 170px; margin-top: 14px; margin-right: 5px; }
+
+.w-shelfContent {  margin-top: 50px;  background: #fff;  margin-bottom: 62px;  }
+
+/*更新提醒*/
+.w-shelfUpdate {  width: 13em;  margin: 0 auto;  display: flex;  display: -webkit-box;  padding:20px 0 0 0;  }
+.updated-daily-table{ position: fixed;  top:60px; z-index: 2; width: 100%; padding: 0 3%}
+
+/*------------------ 收藏部分样式------------------*/
+.w-userPhoto {  width: 2em;  height: 2em;  overflow: hidden;  }
+.w-userPhoto img {  width: 100%;  height: 100%;  }
+.w-shelfNum {  font-size: 13px;  margin-left: 1em;  line-height: 39px;  color: #8A8A8A;  font-weight: 300;  }
+.w-shelfNum span {  color: #FF6F6F;  }
+.w-shelfBooklist {  overflow: hidden;padding-top: 20px;  }
+
+
+.w-shelfBooklist ul li .w-bookChapter {  text-align: center;  }
+.w-shelfBooklist ul li .w-bookPic .w-bookNew {  position: absolute;  left: 5px;  top: 5px;  font-size: 8px;  color: #421011;   padding: 0 6px;  border-radius: 15px;  z-index: 2;  }
+.w-shelfBooklist ul li .w-bookPic .w-bookNew span {  line-height: 15px;  }
+
+/*复选框样式*/
+.w-shelfBooklist ul li .w-bookPic .mui-checkbox.w-checkbox1 {  position: absolute;  bottom: 0px;  right: 0;  border-radius: 6px;  background: rgba(0, 0, 0, 0.5);  }
+.w-checkbox1 ,.w-checkbox2{  display: none;  }
+
+/*覆盖点击样式*/
+.mui-table-view-cell > a:not(.mui-btn).mui-active{  background-color: #fff !important;  }
+
+.mui-checkbox.w-checkbox1 input[type=checkbox] {  top: initial;  bottom: 2px;  right: 0;  }
+.mui-checkbox.w-checkbox1 label {  padding: 60px 47px;  }
+
+
+
+/*覆盖checkbox位置*/
+
+.w-checkbox2 input[type=checkbox]{  position: absolute;  top: 33px;  left:0;  display: inline-block;  width: 28px;  height: 26px;  border: 0;
+	outline: 0!important;  background-color: transparent;  -webkit-appearance: none;  }
+.mui-checkbox.w-checkbox2 {  position: absolute;  top: 0;  left: 2px;  z-index: 11;  }
+.mui-checkbox.w-checkbox2 label {  padding-right: 46px;  }
+.w-historyList .mui-table-view-cell>a.w-Listmargin:not(.mui-btn){  margin-left: 30px;  transition: 0.3s all;  }
+
+
+
+/*列表横线覆盖*/
+.mui-table-view:after {  background-color: rgba(200, 199, 204, 0.61);  }
+
+/*------------------底部操作popup样式------------------*/
+.w-operation1:before{  content: "";  position: absolute;  top: -1px;  left: 0;  right: 0;  height: 0;  width: 100%;  border-top: 1px solid #cecece;
+	-webkit-transform: scaleY(.5);  -webkit-transform-origin: 0 0;  }
+
+.w-Select, .w-delete {  width: 50%;  height: 100%;  text-align: center;  line-height: 60px;  float: left;  }
+.w-Select {  color: #515151;  position: relative;  }
+.w-Select:after{  content: "";  position: absolute;  top: 15px;  bottom: 0;  width: 0;  right: 0;  height: 30px;  border-right: 1px solid #c8cac9;  -webkit-transform: scaleX(.5);
+	transform: scaleX(.5);  -webkit-transform-origin: 0 0;  transform-origin: 0 0;  }
+.w-delete {  color: #515151;  }
+.w-SelectNone {  display: none;  color: #e40101;  }
+
+/*日更样式*/
+.updated-daily{ margin-top: 100px;}
+.updated-daily ul{ padding: 0; margin: 0}
+.updated-daily ul li:last-child{border: none}
+
+.updated-daily .daily-list-item{background-color: #fff;  padding: 5px 15px;    }
+.updated-daily .daily-list-item .item-info {  position: relative;  }
+.updated-daily .daily-list-item .item-info .item-info-link {
+	padding: 8px 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.updated-daily .daily-list-item .item-info .item-title{ font-size: 14px; color: #555;}
+.updated-daily .daily-list-item .item-info .item-title span{    float: left; margin-right: 5px;  transform: scale(.9);  padding: 0 5px;  line-height: 18px;  border-radius: 1rem;  color: #ffffff;  font-size: 11px; }
+.updated-daily .daily-list-item .item-info .item-title h2{ font-weight: normal; color: #999999; font-size: 12px;}
+.updated-daily .daily-list-item .item-info .item-title h3{ font-weight: normal; font-size: 14px; height: 18px; line-height: 18px;}
+.updated-daily .daily-list-item .item-info .item-complete {
+	margin-right: 0.6rem;
+	max-width: 6rem;
+	color: #c5c5c5; font-size: 14px;
+}
+.updated-daily .daily-list-item .item-info .item-complete:after{
+	font-family: Muiicons;
+	line-height: 1;
+	position: absolute;
+	top: 51%;
+	display: inline-block;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	text-decoration: none;
+	color: #c5c5c5;
+	-webkit-font-smoothing: antialiased;
+	content: '\e583';
+	font-size: 18px;
+}
+.updated-daily .daily-list-item .item-cover {
+	display: block;
+}
+.updated-daily .daily-list-item .item-cover img{ width: 100%; border-radius: 4px;}
+.updated-daily .daily-list-item .item-extra{    position: relative;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+}
+.updated-daily .daily-list-item .item-extra a{ float: left}
+
+.updated-daily .daily-list-item .item-chap-title var{
+	font-style: normal;font-weight: 800;color: #ff6f6f; padding-right: 5px;
+}
+.updated-daily .daily-list-item .item-chap-title {
+
+	margin: 0;
+	color: #9a9a9a;
+	font-size: 14px;
+}
+.updated-daily .daily-list-item .btn-hot ,.updated-daily .daily-list-item .btn-like {
+	display: block;
+	height: 100%;
+	padding-right: 0.1rem;
+	padding-left: 0.55rem;
+	color: #c5c5c5;
+	position: relative;
+	font-size: 12px;
+	float: right;
+	text-align: center;
+}
+.updated-daily .daily-list-item .btn-hot .icon-pop{
+	background-size: 200px;
+	background-position: -136px -3px;
+	width: 18px;
+	height: 20px;
+	margin-top: 2px;
+	margin-right: 2px;
+	display: inline-block;
+	margin-left: 2px;
+	vertical-align: middle;
+}
+.updated-daily .daily-list-item .btn-like .icon-collect{
+	background-size: 200px;
+	background-position: -119px -4px;
+	width: 18px;
+	height: 20px;
+	margin-top: 2px;
+	margin-right: 2px;
+	display: inline-block;
+	margin-left: 2px;
+	vertical-align: middle;
+}
+
+
+/* 6-20 zy*/
+.updated-daily-table{ padding: 8px 1% 5px 1%;  top: 50px; background: #fff}
+.w-shelfTab .mui-segmented-control .mui-control-item{ color: #666}
+.updated-daily .daily-list-item .item-info .item-title{color: #121212}
+.updated-daily .daily-list-item .item-cover{ position: relative}
+.updated-daily .daily-list-item .item-extra{position: absolute;top: 15px; right: 0;  background: #ffd321;  border-radius: 20px 0 0 20px;  padding: 0 8px; width: auto; height: 30px; line-height: 30px;}
+.updated-daily .daily-list-item .item-chap-title{ color: #121212}
+.updated-daily .daily-list-item .item-chap-title var{ color: #121212; font-weight: normal}

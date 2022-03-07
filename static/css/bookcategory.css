@@ -1,0 +1,143 @@
+/*
+ @author:王莹
+ 分类页面
+ * 
+ * */
+
+.mui-bar-nav.classify-header {  width: 100%; margin-top: -1px;  min-height: 88px;    top: 0;  left: 0;  text-align: center;  padding: 0;  }
+.mui-bar-nav.classify-header .classify-input { margin: 10px 10px 5px 10px;  height: 34px;  line-height: 34px;    font-size: 14px;   }
+.mui-bar-nav.classify-header .classify-input .icon-search{height: 20px;  width: 20px; opacity: 0.6;  background-position: -150px -248px; margin-top: 8px;  vertical-align: top;  display: inline-flex; margin-right: 10px;background-size: 170px;  }
+/*zy*/.mui-bar-nav.classify-header .classify-input { margin: 10px 15px 5px 15px;  height: 34px;  line-height: 34px;    font-size: 14px;background: #fde23d; border-radius:20px;   }
+/*zy*/.mui-segmented-control.mui-scroll-wrapper .mui-scroll{    white-space: normal}
+.classify-input.mui-input-row input[type=search] {  background: rgba(221, 82, 77, 0.57);  border-radius: 20px;  margin: 8px 0;  height: 34px;  color: #fff;  }
+.classify-input .mui-placeholder {  color: #fff;  line-height: 50px;  font-size: 14px;  font-weight: 300;  }
+.classify-input.mui-search .mui-placeholder .mui-icon {  color: #fff;  margin-right: 1px;  }
+
+/*内容*/
+.mui-bar-nav~.classify-content.mui-content {  padding-top: 0;  margin-top: 89px;  background: #fff;  padding-bottom: 40px;  }
+/*人气模板*/
+.Popularity-top {   position: relative;  overflow: hidden;  top:-12px;     }
+.Popularity-topLeft, .Popularity-topRight {  width: 29%;  position: absolute; padding: 0 5px  }
+.Popularity-topLeft {  left: 10px;  bottom: 0;  }
+.Popularity-topRight {  right: 10px;  bottom: 0;  }
+.Popularity-topCenter {  width: 38%;  padding: 0 10px;    margin-left: 31%;  bottom: 0; position: relative  }
+.Popularity-topLeft .top-img, .Popularity-topRight .top-img{     overflow: hidden;  width: 100% }
+.Popularity-topCenter .top-img{ overflow: hidden; width: 100%  }
+.top-img img {  width: 100%;  height: 100%; vertical-align: bottom ;border-radius: 6px;  }
+.top-bookName {  text-align: center;  font-size: 14px;  font-weight: 600;  color: #555;  margin-top: 10px;    width: 100%;
+	white-space: nowrap;
+	text-overflow: ellipsis; overflow: hidden  }
+.top-bookName p {  font-size: 12px;  line-height: 20px; padding-top:1px ; font-weight: normal }
+.top-bookName p i {  font-size: 18px;  }
+.topIcon { width: 100%;text-align: center; padding-bottom: 5px;  }
+.topIcon img{ width: 40px;}
+.Popularity-topCenter .topIcon { width: 100%;text-align: center;padding-bottom: 8px}
+.Popularity-topCenter .topIcon img{ width: 40px;  }
+/*样式修改*/
+.Popularity-list {  margin: 0 10px 15px; overflow: hidden; margin-top: -2px; border-top-left-radius: 5px; border-top-right-radius: 4px; padding-bottom: 15px; background-color: #fff;}
+.Popularity-list ul { border-top-left-radius: 3px;}
+.Popularity-list .w-bookTag span {  background: #EEEEEE;  border-radius: 25px;  padding: 1px 3px;  }
+.Popularity-list li .top-Num {     position: absolute;  top: 5px;  right: 2px;  font-size: 32px;  display: inline-flex;  background-repeat: no-repeat; background-position: center;}
+.Popularity-list li:nth-child(1) .top-Num{  background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/rtop1.png); background-size: 45px;  width: 45px;height: 40px; margin-right: -5px;  }
+.Popularity-list li:nth-child(2) .top-Num{  background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/rtop2.png); background-size: 37px;  width: 45px;height: 40px; margin-right: -5px;  }
+.Popularity-list li:nth-child(3) .top-Num{  background-image: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/rtop3.png); background-size: 32px;  width:45px;height: 40px; margin-right: -5px;  }
+.Popularity-list li:nth-child(-n+3) .top-Num i{display: none}
+
+
+
+.Popularity-list .top-Num i{ text-align: center; color: #ccc; opacity: 0.2; font-weight: bold}
+.Popularity-list .mui-table-view .w-bookPic{  height: 110px; width: 84px;  }
+.Popularity-list .w-bookAuther{ padding-top: 5px; color: #747474; display: none}
+.Popularity-list .w-bookAuther ,.Popularity-list .w-bookUpdate{ font-size: 12px; color: #969696}
+.Popularity-list .w-bookUpdate b{ /*color: #ff6f6f;*/font-weight: normal}
+.Popularity-list .w-book-footer{ overflow: hidden; margin-top: 42px; font-size: 13px; }
+.Popularity-list .w-book-footer .book-footer-fire{ float: right; font-size: 12px; line-height: 24px; color: #8b8874; text-overflow: ellipsis;}
+.Popularity-list .w-book-footer .book-footer-tag{ float:left; color: #8b8874;width: 130px;  overflow: hidden;}
+.Popularity-list .w-book-footer .book-footer-tag span{ padding: 4px 9px;  border-radius: 3px; background: #fef8d5; font-size: 12px;}
+.Popularity-list .w-book-footer .book-footer-fire .icon-renqi ,.Popularity-top .icon-renqi{/*width: 20px;*/  height: 20px;  background-position: -215px -64px;  vertical-align: top;  display: inline-block;  margin-right: 2px;  background-size: 240px;  }
+
+
+
+.Popularity-list li .gift-user-top{  position: absolute;  top: 0px;  right: 0px;  font-size: 32px;  display: inline-flex; width: 50px; height: 65px; }
+.Popularity-list li .gift-user-top h5 {font-size: 45px; font-style: italic; color: #e1dddd; margin: 0;}
+.Popularity-list li:nth-child(1) .gift-user-top { background: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/rtop1.png) no-repeat top; background-size: 40px;}
+.Popularity-list li:nth-child(1) .gift-user-top h5, .Popularity-list li:nth-child(2) .gift-user-top h5,  .Popularity-list li:nth-child(3) .gift-user-top h5 {visibility: hidden;}
+.Popularity-list li:nth-child(2) .gift-user-top { background: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/rtop2.png) no-repeat top; background-size: 37px;}
+.Popularity-list li:nth-child(3) .gift-user-top { background: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/rtop3.png) no-repeat top; background-size: 32px;}
+.Popularity-list li .gift-user-top img{ width: 50px; height: 50px;border-radius: 50%}
+.Popularity-list li .gift-user-top p{ position: absolute;  font-size: 10px; height: 20px; background: #ffa900; line-height: 20px; text-align: center; color: #fff;
+	width: 55px; border-radius: 20px;
+	top: 49px;  left: 50%;  transform: translateX(-50%) translateY(-50%) scale(.9);    white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;}
+/* 排行背景 */
+.l-rank-bg{ height: 90px; ;background: url(http://img.fox800.xyz/themes/wechat/yellow-theme/default-skin/src/img/rtp.png) no-repeat bottom; background-size: 100%; margin: 0 10px; }
+/*模板1样式*/
+.classify-tab {  margin: 0 15px;  line-height: 25px;  padding-top: 5px; }
+.classify-tab a {  color: #555;  font-size: 14px;  position: relative; line-height: 38px;padding: 6px 13px 6px 0;  }
+/*zy*/.classify-tab {  margin: 0 15px;  line-height: 25px;   }
+/*zy*/.classify-tab a {  color: #000;  font-size: 13px;  position: relative; line-height: 25px;padding: 3px 8px; text-align: center }
+.icon-list-class{width: 28px;  height: 26px;  display: inline-block;  text-align: center;  margin: 0 auto;  vertical-align: top;  background-repeat: no-repeat;    }
+
+
+.classify-tab a.classifly-active {  border-radius: 20px;   }
+.classify-tab a:first-child {  margin-right: 10px;  }
+.classify-tab a:nth-child(2) { margin-right: 10px;}
+.classifly-shelf {float: right !important; }
+.classifly-shelf .end-icon-default { display: inline-block; float: right; width: 20px; height: 20px; background: url(../img/shelfTime.png) no-repeat center 6px; background-size: 11px; transform: rotate(0);}
+.classifly-shelf .end-icon-reverse { display: inline-block; float: right; width: 20px; height: 20px; background: url(../img/shelfTime.png) no-repeat center 2px; background-size: 11px; transform: rotate(180deg);}
+.w-shelfBooklist {padding-top: 0;}
+.category-list-div-ul { clear: both;}
+.w-shelfBooklist.classify-template1 {   }
+.w-shelfBooklist.classify-template2 {  padding-top: 20px;  }
+.w-shelfBooklist.classify-template1 .w-shelfBookinfo, .w-shelfBooklist.classify-template2 .w-shelfBookinfo {  margin-bottom: 15px;  }
+.classifly-chapter {  position: absolute;  width: 100%;  bottom: 0px;  border-radius: 0 0 6px 6px ;  left: 0;  line-height: 70px; height: 50px;  font-size: 12px;
+	color: #fff;  text-align: center;  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7));
+}
+.tracer-list-div{ margin-top: -2px; }
+.tracer-select{ width: 100%;   /*padding: 0 15px 0 6px;*/  height: 50px; line-height: 50px; position: relative; display: table;}
+.tracer-select a.icon-back-home{    width: 25px;  height: 25px;  display: inline-block;  vertical-align: top;  background-size: 170px; margin-right: -6px; margin-left: 10px;
+	margin-top: 11px;  margin-bottom: 2px;background-position: 2px -177px;}
+
+.tracer-select .tracer-select-item{ display: table-cell; text-align: center; font-size: 14px;    color: #303131; position: relative}
+.tracer-select .tracer-select-item.active{ color: #303131;}
+.tracer-select .tracer-select-item.active:after {  content: '';  position: absolute;  width: 35%;  height: 3px;  border-radius: 10rem;  background: #303131;  bottom: 3px;  left: 32.5%;  }
+.tracer-select .select-img{     width: 70%;  position: absolute;  bottom: -35px;  z-index: 2;  left: 15%;}
+.tracer-select .select-img img{  width: 100%}
+.tracer-select .title{ font-size: 18px; color: #fb4242;  position: absolute; right: 15px; top: 1rem}
+.tracer-switchover-bg{ width: 100%; position: absolute; top: 6px;}
+.tracer-switchover{ overflow: hidden; position: absolute; left: 12px; top: 63px; /*border-radius: 30px;*/ z-index: 2; padding-left: 10px;  }
+.bor10{/*border: 10px solid #fff;*/}
+/* .y-bor10{height: 55px;display: block;} */
+.tracer-switchover a{ width: 60px; height: 30px; line-height: 28px; color: #ffa21c; display: block;float: left;  font-size: 14px; text-align: center; background-color: #fff; border: 1px solid #ffa21c;  margin-right: 15px; border-radius: 20px;}
+.tracer-switchover a.active {color: #fff;background-color: #ffa21c;}
+/* 覆盖 */
+.l-book-rank{ background-color: #fde23d !important}
+/* 适配 */
+@media screen and ( max-width: 320px ){
+	.tracer-select { margin-left: 0 !important}
+	.l-rank-bg { height: 67px;}
+	.tracer-switchover { top: 71px;}
+	.tracer-switchover a { width: 30px; height: 30px; line-height: 30px; margin-right: 11px}
+}
+@media screen and (min-width: 321px) and (max-width: 375px) {
+	.l-rank-bg { height: 79px;}
+	.tracer-switchover a {margin-right: 9px}
+}
+
+
+
+/* 6-20 zy*/
+.classifly-chapter {  border-radius: 0 0 2px 2px ;  }
+/* .classify-tab a.classifly-active:after{border: 1px solid #f9b403;} */
+.classify-tab a.classifly-active{color: #f9b403; border: 1px solid #f9b403}
+.mui-bar .classify-list .mui-segmented-control{padding: 9px 15px 8px 15px}
+.classify-tab a{color: #666}
+.classify-tab a.classifly-active:after {
+	border: 0 !important;
+}
+.w-shelfBooklist ul li {
+	height: 7.4rem !important;
+	margin-bottom: 27px !important;
+	margin-top: -8px !important;
+}
